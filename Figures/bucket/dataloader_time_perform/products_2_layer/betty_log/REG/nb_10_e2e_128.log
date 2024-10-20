@@ -1,0 +1,580 @@
+main start at this time 1713170222.3070385
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+in feats:  100
+REG start----................................
+Convert a graph into a bidirected graph: 3.334 seconds, peak memory: 23.786 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 23.786 GB
+Metis partitioning: 11.488 seconds, peak memory: 25.086 GB
+Split the graph: 5.142 seconds
+Construct subgraphs: 0.011 seconds
+REG metis partition end ----................................
+REG construction  time spent:  67.00978183746338
+pure dgl.metis_partition the time spent:  20.021095752716064
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.316546440124512
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  20.406404733657837
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4336217
+pure train  5.288188695907593
+REG start----................................
+Convert a graph into a bidirected graph: 3.333 seconds, peak memory: 50.205 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 50.205 GB
+Metis partitioning: 11.769 seconds, peak memory: 51.461 GB
+Split the graph: 5.117 seconds
+Construct subgraphs: 0.433 seconds
+REG metis partition end ----................................
+REG construction  time spent:  66.55343866348267
+pure dgl.metis_partition the time spent:  20.69623827934265
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.641273021697998
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  20.342613697052002
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4288113
+pure train  2.332726001739502
+REG start----................................
+Convert a graph into a bidirected graph: 3.287 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 12.012 seconds, peak memory: 52.434 GB
+Split the graph: 5.649 seconds
+Construct subgraphs: 0.500 seconds
+REG metis partition end ----................................
+REG construction  time spent:  66.39220404624939
+pure dgl.metis_partition the time spent:  21.493613719940186
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.680103540420532
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  20.33389949798584
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4164641
+pure train  2.1086487770080566
+REG start----................................
+Convert a graph into a bidirected graph: 3.297 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.345 seconds, peak memory: 52.434 GB
+Split the graph: 5.065 seconds
+Construct subgraphs: 0.426 seconds
+REG metis partition end ----................................
+REG construction  time spent:  66.04562783241272
+pure dgl.metis_partition the time spent:  20.176966905593872
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.494911193847656
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  19.61219358444214
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4294246
+pure train  2.1062850952148438
+REG start----................................
+Convert a graph into a bidirected graph: 3.303 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.449 seconds, peak memory: 52.434 GB
+Split the graph: 4.862 seconds
+Construct subgraphs: 0.432 seconds
+REG metis partition end ----................................
+REG construction  time spent:  70.00436878204346
+pure dgl.metis_partition the time spent:  20.089754819869995
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.56900954246521
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  19.818140268325806
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4275345
+pure train  2.102739095687866
+REG start----................................
+Convert a graph into a bidirected graph: 3.267 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.405 seconds, peak memory: 52.434 GB
+Split the graph: 4.926 seconds
+Construct subgraphs: 0.426 seconds
+REG metis partition end ----................................
+REG construction  time spent:  67.61406803131104
+pure dgl.metis_partition the time spent:  20.067819833755493
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.193004131317139
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  19.531323194503784
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4270368
+pure train  2.111096143722534
+REG start----................................
+Convert a graph into a bidirected graph: 3.246 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.367 seconds, peak memory: 52.434 GB
+Split the graph: 4.916 seconds
+Construct subgraphs: 0.577 seconds
+REG metis partition end ----................................
+REG construction  time spent:  68.62941789627075
+pure dgl.metis_partition the time spent:  20.150395154953003
+
+block_gen_time in "generate_blocks_for_one_layer_block"  7.5216453075408936
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  23.618139505386353
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4260874
+pure train  2.2366421222686768
+REG start----................................
+Convert a graph into a bidirected graph: 3.285 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.417 seconds, peak memory: 52.434 GB
+Split the graph: 5.191 seconds
+Construct subgraphs: 0.620 seconds
+REG metis partition end ----................................
+REG construction  time spent:  69.60181474685669
+pure dgl.metis_partition the time spent:  20.558325052261353
+
+block_gen_time in "generate_blocks_for_one_layer_block"  7.369988918304443
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  20.77153444290161
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4231526
+pure train  2.1076560020446777
+REG start----................................
+Convert a graph into a bidirected graph: 2.822 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.391 seconds, peak memory: 52.434 GB
+Split the graph: 5.000 seconds
+Construct subgraphs: 0.601 seconds
+REG metis partition end ----................................
+REG construction  time spent:  67.88758039474487
+pure dgl.metis_partition the time spent:  19.857821941375732
+
+block_gen_time in "generate_blocks_for_one_layer_block"  7.5106871128082275
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  20.806453704833984
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4335880
+pure train  2.238724708557129
+REG start----................................
+Convert a graph into a bidirected graph: 3.298 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.412 seconds, peak memory: 52.434 GB
+Split the graph: 4.952 seconds
+Construct subgraphs: 0.440 seconds
+REG metis partition end ----................................
+REG construction  time spent:  69.05157589912415
+pure dgl.metis_partition the time spent:  20.144522190093994
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.447100400924683
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  21.28576946258545
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4346402
+pure train  2.1542813777923584
+REG start----................................
+Convert a graph into a bidirected graph: 2.812 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.391 seconds, peak memory: 52.434 GB
+Split the graph: 5.361 seconds
+Construct subgraphs: 0.428 seconds
+REG metis partition end ----................................
+REG construction  time spent:  68.82173776626587
+pure dgl.metis_partition the time spent:  20.037150382995605
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.4384989738464355
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  19.374961376190186
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4239589
+pure train  2.1801528930664062
+REG start----................................
+Convert a graph into a bidirected graph: 3.276 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.444 seconds, peak memory: 52.434 GB
+Split the graph: 4.809 seconds
+Construct subgraphs: 0.446 seconds
+REG metis partition end ----................................
+REG construction  time spent:  68.24191188812256
+pure dgl.metis_partition the time spent:  20.020633935928345
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.545830011367798
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  20.33777141571045
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4361234
+pure train  2.1828575134277344
+REG start----................................
+Convert a graph into a bidirected graph: 3.314 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.777 seconds, peak memory: 52.434 GB
+Split the graph: 4.980 seconds
+Construct subgraphs: 0.422 seconds
+REG metis partition end ----................................
+REG construction  time spent:  69.07999086380005
+pure dgl.metis_partition the time spent:  20.53956961631775
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.41894793510437
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  20.261600255966187
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4206458
+pure train  2.2883458137512207
+REG start----................................
+Convert a graph into a bidirected graph: 3.259 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.355 seconds, peak memory: 52.434 GB
+Split the graph: 5.692 seconds
+Construct subgraphs: 0.430 seconds
+REG metis partition end ----................................
+REG construction  time spent:  68.9677381515503
+pure dgl.metis_partition the time spent:  20.780858039855957
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.414426565170288
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  19.37550973892212
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4254309
+pure train  2.1744208335876465
+REG start----................................
+Convert a graph into a bidirected graph: 3.364 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.582 seconds, peak memory: 52.434 GB
+Split the graph: 6.772 seconds
+Construct subgraphs: 0.388 seconds
+REG metis partition end ----................................
+REG construction  time spent:  68.78349208831787
+pure dgl.metis_partition the time spent:  22.151813745498657
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.454942941665649
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  19.95824885368347
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4438585
+pure train  2.1875226497650146
+REG start----................................
+Convert a graph into a bidirected graph: 3.430 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.444 seconds, peak memory: 52.434 GB
+Split the graph: 4.807 seconds
+Construct subgraphs: 0.238 seconds
+REG metis partition end ----................................
+REG construction  time spent:  67.6435935497284
+pure dgl.metis_partition the time spent:  19.96369695663452
+
+block_gen_time in "generate_blocks_for_one_layer_block"  5.896444082260132
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  19.43816828727722
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4218756
+pure train  2.349400043487549
+REG start----................................
+Convert a graph into a bidirected graph: 2.874 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.635 seconds, peak memory: 52.434 GB
+Split the graph: 5.005 seconds
+Construct subgraphs: 0.440 seconds
+REG metis partition end ----................................
+REG construction  time spent:  68.84851360321045
+pure dgl.metis_partition the time spent:  20.001769542694092
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.387917757034302
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  19.880741834640503
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4160498
+pure train  2.1815264225006104
+REG start----................................
+Convert a graph into a bidirected graph: 3.287 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.406 seconds, peak memory: 52.434 GB
+Split the graph: 5.139 seconds
+Construct subgraphs: 0.444 seconds
+REG metis partition end ----................................
+REG construction  time spent:  67.98000264167786
+pure dgl.metis_partition the time spent:  20.322162866592407
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.517935276031494
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  20.569273948669434
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4404162
+pure train  2.1996467113494873
+REG start----................................
+Convert a graph into a bidirected graph: 3.333 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 11.452 seconds, peak memory: 52.434 GB
+Split the graph: 5.233 seconds
+Construct subgraphs: 0.430 seconds
+REG metis partition end ----................................
+REG construction  time spent:  68.19589352607727
+pure dgl.metis_partition the time spent:  20.49424171447754
+
+block_gen_time in "generate_blocks_for_one_layer_block"  6.4898552894592285
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  25.32755160331726
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4192126
+pure train  2.34012508392334
+REG start----................................
+Convert a graph into a bidirected graph: 3.504 seconds, peak memory: 52.434 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.434 GB
+Metis partitioning: 12.605 seconds, peak memory: 52.434 GB
+Split the graph: 4.831 seconds
+Construct subgraphs: 1.032 seconds
+REG metis partition end ----................................
+REG construction  time spent:  69.24507975578308
+pure dgl.metis_partition the time spent:  22.026237964630127
+
+block_gen_time in "generate_blocks_for_one_layer_block"  7.057346820831299
+
+
+block_gen_time in "generate_blocks_for_one_layer_block"  23.768789052963257
+
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+num_input  4278135
+pure train  2.282771348953247
+epoch_time_list  [140.83965349197388, 138.16227889060974, 138.2027564048767, 135.91475105285645, 140.0557599067688, 136.62670803070068, 146.01574039459229, 143.412837266922, 141.14255452156067, 140.7803156375885, 137.8572175502777, 138.69369745254517, 139.60562562942505, 138.74012327194214, 140.88266444206238, 136.16117978096008, 138.3701753616333, 139.46251916885376, 146.20485758781433, 148.4683244228363]
+
+loading_time list   [0.5692591667175293, 0.6041390895843506, 0.5729053020477295, 0.5571169853210449, 0.5875890254974365, 0.5750551223754883, 0.585486888885498, 0.5902881622314453, 0.57401442527771, 0.5716943740844727, 0.5422289371490479, 0.5133025646209717, 0.46610021591186523, 0.5257198810577393, 0.5716230869293213, 0.5337612628936768, 0.5649402141571045, 0.5723395347595215, 0.55812668800354, 0.5589296817779541]
+
+ data loader gen time  144.30825233459473
+	---connection_check_time_list  [16.0026912689209, 15.920304536819458, 15.508418083190918, 15.749866485595703, 15.743643999099731, 15.492172241210938, 17.590816974639893, 16.79366707801819, 16.575150728225708, 16.007381200790405, 15.432527780532837, 15.980186223983765, 15.591481685638428, 15.47640872001648, 15.840528964996338, 15.56024718284607, 15.434573411941528, 16.12138843536377, 17.642197370529175, 18.11539626121521]
+	---block_gen_time_list  [26.72295117378235, 26.98388671875, 27.014003038406372, 26.107104778289795, 26.387149810791016, 25.724327325820923, 31.139784812927246, 28.141523361206055, 28.317140817642212, 27.732869863510132, 25.81346035003662, 26.883601427078247, 26.680548191070557, 25.789936304092407, 26.41319179534912, 25.334612369537354, 26.268659591674805, 27.087209224700928, 31.81740689277649, 30.826135873794556]
+training time  [6.78064751625061, 3.737185478210449, 3.4912359714508057, 3.5262176990509033, 3.4909114837646484, 3.496713161468506, 3.7622170448303223, 3.514483690261841, 3.686842918395996, 3.6333677768707275, 3.5466489791870117, 3.5805511474609375, 3.6531529426574707, 3.543027877807617, 3.6140427589416504, 3.6526269912719727, 3.523005962371826, 3.666602611541748, 3.7492682933807373, 3.575411796569824]
+---feature block loading time  [1.491441249847412, 1.4021978378295898, 1.381453514099121, 1.4190106391906738, 1.387099027633667, 1.3843915462493896, 1.5242700576782227, 1.4056389331817627, 1.4463880062103271, 1.4780840873718262, 1.3653345108032227, 1.3953423500061035, 1.3619835376739502, 1.3656234741210938, 1.4255073070526123, 1.3017308712005615, 1.340165376663208, 1.465362787246704, 1.4072387218475342, 1.291184663772583]
+
+
+epoch_time avg   140.7800187766552
+loading_time avg   0.5557000041007996
+ data loader gen time avg 136.60277293622494
+	---connection_check_time avg  16.21236051619053
+	---block_gen_time avg  27.52234737575054
+training time  3.6055547147989273
+---feature block loading time  1.396584078669548
+
+	pure train time avg  2.2073692977428436
+pure train time per /epoch  [5.288188695907593, 2.332726001739502, 2.1086487770080566, 2.1062850952148438, 2.102739095687866, 2.111096143722534, 2.2366421222686768, 2.1076560020446777, 2.238724708557129, 2.1542813777923584, 2.1801528930664062, 2.1828575134277344, 2.2883458137512207, 2.1744208335876465, 2.1875226497650146, 2.349400043487549, 2.1815264225006104, 2.1996467113494873, 2.34012508392334, 2.282771348953247]
+
+num_input list  [4336217, 4288113, 4164641, 4294246, 4275345, 4270368, 4260874, 4231526, 4335880, 4346402, 4239589, 4361234, 4206458, 4254309, 4438585, 4218756, 4160498, 4404162, 4192126, 4278135]
+num_input  average  4277873.2

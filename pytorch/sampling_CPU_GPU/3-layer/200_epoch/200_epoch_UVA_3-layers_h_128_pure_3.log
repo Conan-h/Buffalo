@@ -1,0 +1,2397 @@
+main start at this time 1704355008.0014896
+-----------------------------------------before load data 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  100
+----------------------------------------after model to device
+ Nvidia-smi: 1.44140625 GB
+    Memory Allocated: 0.00026226043701171875  GigaBytes
+Max Memory Allocated: 0.00026226043701171875  GigaBytes
+
+
+epoch  0
+----------------------------------------after optimizer
+ Nvidia-smi: 13.181640625 GB
+    Memory Allocated: 3.558265209197998  GigaBytes
+Max Memory Allocated: 9.494778156280518  GigaBytes
+
+Number of first layer input nodes during this epoch:  2199833
+
+epoch  1
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.556657314300537  GigaBytes
+Max Memory Allocated: 9.572032928466797  GigaBytes
+
+Number of first layer input nodes during this epoch:  2200230
+
+epoch  2
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5586700439453125  GigaBytes
+Max Memory Allocated: 9.573461055755615  GigaBytes
+
+Number of first layer input nodes during this epoch:  2200475
+
+epoch  3
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5579404830932617  GigaBytes
+Max Memory Allocated: 9.57429552078247  GigaBytes
+
+Number of first layer input nodes during this epoch:  2199567
+
+epoch  4
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5583176612854004  GigaBytes
+Max Memory Allocated: 9.577136516571045  GigaBytes
+
+Number of first layer input nodes during this epoch:  2200220
+
+epoch  5
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5593619346618652  GigaBytes
+Max Memory Allocated: 9.577136516571045  GigaBytes
+
+Number of first layer input nodes during this epoch:  2199809
+
+epoch  6
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5605907440185547  GigaBytes
+Max Memory Allocated: 9.578518390655518  GigaBytes
+
+Number of first layer input nodes during this epoch:  2200115
+
+epoch  7
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5577569007873535  GigaBytes
+Max Memory Allocated: 9.578518390655518  GigaBytes
+
+Number of first layer input nodes during this epoch:  2200429
+
+epoch  8
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558361530303955  GigaBytes
+Max Memory Allocated: 9.578518390655518  GigaBytes
+
+Number of first layer input nodes during this epoch:  2199845
+
+epoch  9
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558828830718994  GigaBytes
+Max Memory Allocated: 9.578518390655518  GigaBytes
+
+Number of first layer input nodes during this epoch:  2199307
+
+epoch  10
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559354305267334  GigaBytes
+Max Memory Allocated: 9.578518390655518  GigaBytes
+
+loader time/epoch 0.6135928630828857
+data move to GPU time/epoch 0.23365187644958496
+* Pure training time/epoch 0.01045083999633789
+       Training time/epoch 0.8577837944030762
+Number of first layer input nodes during this epoch:  2199668
+
+epoch  11
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5581321716308594  GigaBytes
+Max Memory Allocated: 9.578518390655518  GigaBytes
+
+loader time/epoch 0.6140544414520264
+data move to GPU time/epoch 0.23298048973083496
+* Pure training time/epoch 0.010632038116455078
+       Training time/epoch 0.8577592372894287
+Number of first layer input nodes during this epoch:  2199272
+
+epoch  12
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558411121368408  GigaBytes
+Max Memory Allocated: 9.578518390655518  GigaBytes
+
+loader time/epoch 0.6131198406219482
+data move to GPU time/epoch 0.23219823837280273
+* Pure training time/epoch 0.010595560073852539
+       Training time/epoch 0.8559954166412354
+Number of first layer input nodes during this epoch:  2199978
+
+epoch  13
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5575084686279297  GigaBytes
+Max Memory Allocated: 9.578518390655518  GigaBytes
+
+loader time/epoch 0.6134400367736816
+data move to GPU time/epoch 0.23097848892211914
+* Pure training time/epoch 0.010509014129638672
+       Training time/epoch 0.855017900466919
+Number of first layer input nodes during this epoch:  2199571
+
+epoch  14
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5590100288391113  GigaBytes
+Max Memory Allocated: 9.58098030090332  GigaBytes
+
+loader time/epoch 0.6139745712280273
+data move to GPU time/epoch 0.23193788528442383
+* Pure training time/epoch 0.010621070861816406
+       Training time/epoch 0.8566272258758545
+Number of first layer input nodes during this epoch:  2200603
+
+epoch  15
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5596861839294434  GigaBytes
+Max Memory Allocated: 9.58098030090332  GigaBytes
+
+loader time/epoch 0.6134977340698242
+data move to GPU time/epoch 0.23260855674743652
+* Pure training time/epoch 0.010536670684814453
+       Training time/epoch 0.8567342758178711
+Number of first layer input nodes during this epoch:  2199997
+
+epoch  16
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5574026107788086  GigaBytes
+Max Memory Allocated: 9.58098030090332  GigaBytes
+
+loader time/epoch 0.6134402751922607
+data move to GPU time/epoch 0.24885153770446777
+* Pure training time/epoch 0.01994037628173828
+       Training time/epoch 0.8824255466461182
+Number of first layer input nodes during this epoch:  2200001
+
+epoch  17
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5605549812316895  GigaBytes
+Max Memory Allocated: 9.58098030090332  GigaBytes
+
+loader time/epoch 0.6044986248016357
+data move to GPU time/epoch 0.4084203243255615
+* Pure training time/epoch 0.010909318923950195
+       Training time/epoch 1.0239250659942627
+Number of first layer input nodes during this epoch:  2200465
+
+epoch  18
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5594663619995117  GigaBytes
+Max Memory Allocated: 9.58098030090332  GigaBytes
+
+loader time/epoch 0.6135962009429932
+data move to GPU time/epoch 0.24059653282165527
+* Pure training time/epoch 0.010389566421508789
+       Training time/epoch 0.8646740913391113
+Number of first layer input nodes during this epoch:  2199999
+
+epoch  19
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5580077171325684  GigaBytes
+Max Memory Allocated: 9.58098030090332  GigaBytes
+
+loader time/epoch 0.6152207851409912
+data move to GPU time/epoch 0.24055027961730957
+* Pure training time/epoch 0.010658979415893555
+       Training time/epoch 0.8665244579315186
+Number of first layer input nodes during this epoch:  2200640
+
+epoch  20
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.560685157775879  GigaBytes
+Max Memory Allocated: 9.58098030090332  GigaBytes
+
+loader time/epoch 0.6139271259307861
+data move to GPU time/epoch 0.23795223236083984
+* Pure training time/epoch 0.010618448257446289
+       Training time/epoch 0.8625884056091309
+Number of first layer input nodes during this epoch:  2200135
+
+epoch  21
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.55747127532959  GigaBytes
+Max Memory Allocated: 9.58098030090332  GigaBytes
+
+loader time/epoch 0.6134939193725586
+data move to GPU time/epoch 0.24532079696655273
+* Pure training time/epoch 0.011039972305297852
+       Training time/epoch 0.869940996170044
+Number of first layer input nodes during this epoch:  2199668
+
+epoch  22
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5577611923217773  GigaBytes
+Max Memory Allocated: 9.58098030090332  GigaBytes
+
+loader time/epoch 0.613394021987915
+data move to GPU time/epoch 0.2810831069946289
+* Pure training time/epoch 0.010621070861816406
+       Training time/epoch 0.905193567276001
+Number of first layer input nodes during this epoch:  2199885
+
+epoch  23
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.55918025970459  GigaBytes
+Max Memory Allocated: 9.58098030090332  GigaBytes
+
+loader time/epoch 0.613999605178833
+data move to GPU time/epoch 0.2378370761871338
+* Pure training time/epoch 0.011108875274658203
+       Training time/epoch 0.863037109375
+Number of first layer input nodes during this epoch:  2199857
+
+epoch  24
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.560403347015381  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6143927574157715
+data move to GPU time/epoch 0.2328803539276123
+* Pure training time/epoch 0.012494564056396484
+       Training time/epoch 0.8599002361297607
+Number of first layer input nodes during this epoch:  2200274
+
+epoch  25
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559744358062744  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6120917797088623
+data move to GPU time/epoch 0.23601245880126953
+* Pure training time/epoch 0.010965347290039062
+       Training time/epoch 0.8591632843017578
+Number of first layer input nodes during this epoch:  2199905
+
+epoch  26
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.55935001373291  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6130657196044922
+data move to GPU time/epoch 0.23870515823364258
+* Pure training time/epoch 0.012900590896606445
+       Training time/epoch 0.8647549152374268
+Number of first layer input nodes during this epoch:  2200313
+
+epoch  27
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5587453842163086  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6115021705627441
+data move to GPU time/epoch 0.3085308074951172
+* Pure training time/epoch 0.010672330856323242
+       Training time/epoch 0.9307961463928223
+Number of first layer input nodes during this epoch:  2200079
+
+epoch  28
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.560621738433838  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6132879257202148
+data move to GPU time/epoch 0.244096040725708
+* Pure training time/epoch 0.010513782501220703
+       Training time/epoch 0.867990255355835
+Number of first layer input nodes during this epoch:  2199707
+
+epoch  29
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5583457946777344  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139898300170898
+data move to GPU time/epoch 0.23841619491577148
+* Pure training time/epoch 0.010625123977661133
+       Training time/epoch 0.8631200790405273
+Number of first layer input nodes during this epoch:  2199714
+
+epoch  30
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557842254638672  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6137599945068359
+data move to GPU time/epoch 0.24388957023620605
+* Pure training time/epoch 0.01164698600769043
+       Training time/epoch 0.8693902492523193
+Number of first layer input nodes during this epoch:  2199578
+
+epoch  31
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5580930709838867  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6129271984100342
+data move to GPU time/epoch 0.2366626262664795
+* Pure training time/epoch 0.010946035385131836
+       Training time/epoch 0.8606293201446533
+Number of first layer input nodes during this epoch:  2199445
+
+epoch  32
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5589871406555176  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.613534688949585
+data move to GPU time/epoch 0.29006052017211914
+* Pure training time/epoch 0.011285781860351562
+       Training time/epoch 0.9149689674377441
+Number of first layer input nodes during this epoch:  2199769
+
+epoch  33
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5572004318237305  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6136372089385986
+data move to GPU time/epoch 0.23560285568237305
+* Pure training time/epoch 0.01098942756652832
+       Training time/epoch 0.8603217601776123
+Number of first layer input nodes during this epoch:  2200259
+
+epoch  34
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558656692504883  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6143243312835693
+data move to GPU time/epoch 0.2348787784576416
+* Pure training time/epoch 0.013058185577392578
+       Training time/epoch 0.8623995780944824
+Number of first layer input nodes during this epoch:  2198934
+
+epoch  35
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5578207969665527  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6114523410797119
+data move to GPU time/epoch 0.2332150936126709
+* Pure training time/epoch 0.010649442672729492
+       Training time/epoch 0.8554089069366455
+Number of first layer input nodes during this epoch:  2199675
+
+epoch  36
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5574259757995605  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6138956546783447
+data move to GPU time/epoch 0.23362112045288086
+* Pure training time/epoch 0.010912656784057617
+       Training time/epoch 0.8585262298583984
+Number of first layer input nodes during this epoch:  2199363
+
+epoch  37
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5582351684570312  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6132471561431885
+data move to GPU time/epoch 0.2323932647705078
+* Pure training time/epoch 0.010726213455200195
+       Training time/epoch 0.8564596176147461
+Number of first layer input nodes during this epoch:  2199707
+
+epoch  38
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5577335357666016  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6140291690826416
+data move to GPU time/epoch 0.2825777530670166
+* Pure training time/epoch 0.010658502578735352
+       Training time/epoch 0.9073574542999268
+Number of first layer input nodes during this epoch:  2199799
+
+epoch  39
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5597891807556152  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141374111175537
+data move to GPU time/epoch 0.2832036018371582
+* Pure training time/epoch 0.010658979415893555
+       Training time/epoch 0.908099889755249
+Number of first layer input nodes during this epoch:  2199835
+
+epoch  40
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559515953063965  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6138625144958496
+data move to GPU time/epoch 0.25875020027160645
+* Pure training time/epoch 0.01096487045288086
+       Training time/epoch 0.8836679458618164
+Number of first layer input nodes during this epoch:  2199843
+
+epoch  41
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5605688095092773  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6133966445922852
+data move to GPU time/epoch 0.23188996315002441
+* Pure training time/epoch 0.010599374771118164
+       Training time/epoch 0.8559954166412354
+Number of first layer input nodes during this epoch:  2200767
+
+epoch  42
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558380603790283  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6138927936553955
+data move to GPU time/epoch 0.2319962978363037
+* Pure training time/epoch 0.010735273361206055
+       Training time/epoch 0.8567202091217041
+Number of first layer input nodes during this epoch:  2200168
+
+epoch  43
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.560715675354004  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6137900352478027
+data move to GPU time/epoch 0.23360323905944824
+* Pure training time/epoch 0.010744810104370117
+       Training time/epoch 0.8582310676574707
+Number of first layer input nodes during this epoch:  2200473
+
+epoch  44
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5591917037963867  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6138696670532227
+data move to GPU time/epoch 0.24788784980773926
+* Pure training time/epoch 0.010870218276977539
+       Training time/epoch 0.8727190494537354
+Number of first layer input nodes during this epoch:  2200150
+
+epoch  45
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5581345558166504  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139330863952637
+data move to GPU time/epoch 0.23257803916931152
+* Pure training time/epoch 0.01063680648803711
+       Training time/epoch 0.8572425842285156
+Number of first layer input nodes during this epoch:  2199746
+
+epoch  46
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.55995512008667  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141855716705322
+data move to GPU time/epoch 0.2559492588043213
+* Pure training time/epoch 0.010683536529541016
+       Training time/epoch 0.8809123039245605
+Number of first layer input nodes during this epoch:  2200616
+
+epoch  47
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558434009552002  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139719486236572
+data move to GPU time/epoch 0.26490116119384766
+* Pure training time/epoch 0.010668039321899414
+       Training time/epoch 0.8896353244781494
+Number of first layer input nodes during this epoch:  2200335
+
+epoch  48
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5578808784484863  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141564846038818
+data move to GPU time/epoch 0.2328205108642578
+* Pure training time/epoch 0.011149168014526367
+       Training time/epoch 0.8582155704498291
+Number of first layer input nodes during this epoch:  2200145
+
+epoch  49
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5576467514038086  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6131784915924072
+data move to GPU time/epoch 0.2335343360900879
+* Pure training time/epoch 0.010648012161254883
+       Training time/epoch 0.8574526309967041
+Number of first layer input nodes during this epoch:  2199161
+
+epoch  50
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558338165283203  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.613802433013916
+data move to GPU time/epoch 0.23294973373413086
+* Pure training time/epoch 0.010795116424560547
+       Training time/epoch 0.8576385974884033
+Number of first layer input nodes during this epoch:  2200274
+
+epoch  51
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5593271255493164  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.614365816116333
+data move to GPU time/epoch 0.2322373390197754
+* Pure training time/epoch 0.011008501052856445
+       Training time/epoch 0.8577077388763428
+Number of first layer input nodes during this epoch:  2200319
+
+epoch  52
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.556918144226074  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6148765087127686
+data move to GPU time/epoch 0.23140525817871094
+* Pure training time/epoch 0.012207508087158203
+       Training time/epoch 0.8586161136627197
+Number of first layer input nodes during this epoch:  2199204
+
+epoch  53
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559299945831299  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6122663021087646
+data move to GPU time/epoch 0.23293375968933105
+* Pure training time/epoch 0.01063680648803711
+       Training time/epoch 0.8559279441833496
+Number of first layer input nodes during this epoch:  2200538
+
+epoch  54
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5567431449890137  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141648292541504
+data move to GPU time/epoch 0.23247838020324707
+* Pure training time/epoch 0.010689020156860352
+       Training time/epoch 0.8574271202087402
+Number of first layer input nodes during this epoch:  2199200
+
+epoch  55
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5586185455322266  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6140267848968506
+data move to GPU time/epoch 0.23186635971069336
+* Pure training time/epoch 0.010803937911987305
+       Training time/epoch 0.8567948341369629
+Number of first layer input nodes during this epoch:  2200012
+
+epoch  56
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5594143867492676  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6138198375701904
+data move to GPU time/epoch 0.2321453094482422
+* Pure training time/epoch 0.01071310043334961
+       Training time/epoch 0.856774091720581
+Number of first layer input nodes during this epoch:  2200181
+
+epoch  57
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558332920074463  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6154909133911133
+data move to GPU time/epoch 0.23479604721069336
+* Pure training time/epoch 0.010530948638916016
+       Training time/epoch 0.8608953952789307
+Number of first layer input nodes during this epoch:  2200032
+
+epoch  58
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5581369400024414  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6137197017669678
+data move to GPU time/epoch 0.23379254341125488
+* Pure training time/epoch 0.010248422622680664
+       Training time/epoch 0.8578488826751709
+Number of first layer input nodes during this epoch:  2200535
+
+epoch  59
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5595297813415527  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139881610870361
+data move to GPU time/epoch 0.25977468490600586
+* Pure training time/epoch 0.010171890258789062
+       Training time/epoch 0.8840184211730957
+Number of first layer input nodes during this epoch:  2200133
+
+epoch  60
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5598225593566895  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6140139102935791
+data move to GPU time/epoch 0.23357653617858887
+* Pure training time/epoch 0.010230779647827148
+       Training time/epoch 0.8579034805297852
+Number of first layer input nodes during this epoch:  2200226
+
+epoch  61
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5566134452819824  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.613828182220459
+data move to GPU time/epoch 0.3154284954071045
+* Pure training time/epoch 0.010219573974609375
+       Training time/epoch 0.9395627975463867
+Number of first layer input nodes during this epoch:  2199828
+
+epoch  62
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559673309326172  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.61427903175354
+data move to GPU time/epoch 0.2333054542541504
+* Pure training time/epoch 0.010270357131958008
+       Training time/epoch 0.8579349517822266
+Number of first layer input nodes during this epoch:  2200280
+
+epoch  63
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5592942237854004  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.613976240158081
+data move to GPU time/epoch 0.29656457901000977
+* Pure training time/epoch 0.010138750076293945
+       Training time/epoch 0.920762300491333
+Number of first layer input nodes during this epoch:  2199976
+
+epoch  64
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558465003967285  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6142101287841797
+data move to GPU time/epoch 0.23330235481262207
+* Pure training time/epoch 0.010199785232543945
+       Training time/epoch 0.8577940464019775
+Number of first layer input nodes during this epoch:  2199917
+
+epoch  65
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5583786964416504  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6138455867767334
+data move to GPU time/epoch 0.23375606536865234
+* Pure training time/epoch 0.010185956954956055
+       Training time/epoch 0.8578715324401855
+Number of first layer input nodes during this epoch:  2200425
+
+epoch  66
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559213161468506  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6140615940093994
+data move to GPU time/epoch 0.2445509433746338
+* Pure training time/epoch 0.010184049606323242
+       Training time/epoch 0.8692069053649902
+Number of first layer input nodes during this epoch:  2200299
+
+epoch  67
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558436870574951  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6137440204620361
+data move to GPU time/epoch 0.23309040069580078
+* Pure training time/epoch 0.010182380676269531
+       Training time/epoch 0.8571009635925293
+Number of first layer input nodes during this epoch:  2200173
+
+epoch  68
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557516098022461  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6138589382171631
+data move to GPU time/epoch 0.18271279335021973
+* Pure training time/epoch 0.011830329895019531
+       Training time/epoch 0.8085038661956787
+Number of first layer input nodes during this epoch:  2200104
+
+epoch  69
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.560314178466797  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6127152442932129
+data move to GPU time/epoch 0.23818588256835938
+* Pure training time/epoch 0.010792016983032227
+       Training time/epoch 0.8617913722991943
+Number of first layer input nodes during this epoch:  2200483
+
+epoch  70
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559635639190674  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141331195831299
+data move to GPU time/epoch 0.24191617965698242
+* Pure training time/epoch 0.01061868667602539
+       Training time/epoch 0.866762638092041
+Number of first layer input nodes during this epoch:  2199883
+
+epoch  71
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5592756271362305  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.614091157913208
+data move to GPU time/epoch 0.2351219654083252
+* Pure training time/epoch 0.010664701461791992
+       Training time/epoch 0.8599727153778076
+Number of first layer input nodes during this epoch:  2200448
+
+epoch  72
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559572219848633  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139802932739258
+data move to GPU time/epoch 0.24117088317871094
+* Pure training time/epoch 0.010715246200561523
+       Training time/epoch 0.8659610748291016
+Number of first layer input nodes during this epoch:  2199894
+
+epoch  73
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5579776763916016  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139628887176514
+data move to GPU time/epoch 0.23375272750854492
+* Pure training time/epoch 0.010662555694580078
+       Training time/epoch 0.8584713935852051
+Number of first layer input nodes during this epoch:  2199640
+
+epoch  74
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559393882751465  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141700744628906
+data move to GPU time/epoch 0.23337292671203613
+* Pure training time/epoch 0.010715961456298828
+       Training time/epoch 0.8583533763885498
+Number of first layer input nodes during this epoch:  2201133
+
+epoch  75
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.55938720703125  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139829158782959
+data move to GPU time/epoch 0.23464369773864746
+* Pure training time/epoch 0.010736942291259766
+       Training time/epoch 0.8594582080841064
+Number of first layer input nodes during this epoch:  2199932
+
+epoch  76
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5572686195373535  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6142776012420654
+data move to GPU time/epoch 0.2341625690460205
+* Pure training time/epoch 0.01105642318725586
+       Training time/epoch 0.8595881462097168
+Number of first layer input nodes during this epoch:  2199599
+
+epoch  77
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5588784217834473  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6140289306640625
+data move to GPU time/epoch 0.24019718170166016
+* Pure training time/epoch 0.010974884033203125
+       Training time/epoch 0.8653097152709961
+Number of first layer input nodes during this epoch:  2199885
+
+epoch  78
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558027744293213  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6135983467102051
+data move to GPU time/epoch 0.23465371131896973
+* Pure training time/epoch 0.010663032531738281
+       Training time/epoch 0.8590071201324463
+Number of first layer input nodes during this epoch:  2199839
+
+epoch  79
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5582962036132812  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6144461631774902
+data move to GPU time/epoch 0.2339017391204834
+* Pure training time/epoch 0.010623455047607422
+       Training time/epoch 0.8590602874755859
+Number of first layer input nodes during this epoch:  2199875
+
+epoch  80
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5593137741088867  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141388416290283
+data move to GPU time/epoch 0.2336115837097168
+* Pure training time/epoch 0.01067972183227539
+       Training time/epoch 0.8585236072540283
+Number of first layer input nodes during this epoch:  2199294
+
+epoch  81
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5569448471069336  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6143162250518799
+data move to GPU time/epoch 0.23507070541381836
+* Pure training time/epoch 0.010695219039916992
+       Training time/epoch 0.8601768016815186
+Number of first layer input nodes during this epoch:  2199590
+
+epoch  82
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5587196350097656  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6145782470703125
+data move to GPU time/epoch 0.2340846061706543
+* Pure training time/epoch 0.01075434684753418
+       Training time/epoch 0.8595101833343506
+Number of first layer input nodes during this epoch:  2200915
+
+epoch  83
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558323860168457  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.614142894744873
+data move to GPU time/epoch 0.23328208923339844
+* Pure training time/epoch 0.010731220245361328
+       Training time/epoch 0.8582470417022705
+Number of first layer input nodes during this epoch:  2200163
+
+epoch  84
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559518337249756  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6140820980072021
+data move to GPU time/epoch 0.23423361778259277
+* Pure training time/epoch 0.010672330856323242
+       Training time/epoch 0.8590793609619141
+Number of first layer input nodes during this epoch:  2199978
+
+epoch  85
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5585803985595703  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6138894557952881
+data move to GPU time/epoch 0.23458433151245117
+* Pure training time/epoch 0.010754585266113281
+       Training time/epoch 0.8593223094940186
+Number of first layer input nodes during this epoch:  2199907
+
+epoch  86
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558694839477539  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141707897186279
+data move to GPU time/epoch 0.260786771774292
+* Pure training time/epoch 0.010706424713134766
+       Training time/epoch 0.8857598304748535
+Number of first layer input nodes during this epoch:  2200911
+
+epoch  87
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5593414306640625  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6176681518554688
+data move to GPU time/epoch 0.24997377395629883
+* Pure training time/epoch 0.010674715042114258
+       Training time/epoch 0.878406286239624
+Number of first layer input nodes during this epoch:  2200090
+
+epoch  88
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557650566101074  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141784191131592
+data move to GPU time/epoch 0.23443818092346191
+* Pure training time/epoch 0.010705232620239258
+       Training time/epoch 0.8594167232513428
+Number of first layer input nodes during this epoch:  2199839
+
+epoch  89
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557847023010254  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6140346527099609
+data move to GPU time/epoch 0.24820399284362793
+* Pure training time/epoch 0.010640382766723633
+       Training time/epoch 0.8729715347290039
+Number of first layer input nodes during this epoch:  2200147
+
+epoch  90
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558530330657959  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141936779022217
+data move to GPU time/epoch 0.24824261665344238
+* Pure training time/epoch 0.010672807693481445
+       Training time/epoch 0.8732001781463623
+Number of first layer input nodes during this epoch:  2200011
+
+epoch  91
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5588130950927734  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6138052940368652
+data move to GPU time/epoch 0.2337970733642578
+* Pure training time/epoch 0.010707855224609375
+       Training time/epoch 0.8584041595458984
+Number of first layer input nodes during this epoch:  2200355
+
+epoch  92
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559826374053955  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139416694641113
+data move to GPU time/epoch 0.23405241966247559
+* Pure training time/epoch 0.010631322860717773
+       Training time/epoch 0.8587181568145752
+Number of first layer input nodes during this epoch:  2200442
+
+epoch  93
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5583505630493164  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.614384651184082
+data move to GPU time/epoch 0.23432683944702148
+* Pure training time/epoch 0.01082921028137207
+       Training time/epoch 0.8596365451812744
+Number of first layer input nodes during this epoch:  2200249
+
+epoch  94
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5597033500671387  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6137905120849609
+data move to GPU time/epoch 0.23359370231628418
+* Pure training time/epoch 0.010730266571044922
+       Training time/epoch 0.8582055568695068
+Number of first layer input nodes during this epoch:  2199948
+
+epoch  95
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558562755584717  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6136207580566406
+data move to GPU time/epoch 0.2365727424621582
+* Pure training time/epoch 0.010701656341552734
+       Training time/epoch 0.8609936237335205
+Number of first layer input nodes during this epoch:  2199908
+
+epoch  96
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5580339431762695  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.61358642578125
+data move to GPU time/epoch 0.18104338645935059
+* Pure training time/epoch 0.012002229690551758
+       Training time/epoch 0.8067455291748047
+Number of first layer input nodes during this epoch:  2199965
+
+epoch  97
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558098793029785  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6124043464660645
+data move to GPU time/epoch 0.23915863037109375
+* Pure training time/epoch 0.011387348175048828
+       Training time/epoch 0.8630475997924805
+Number of first layer input nodes during this epoch:  2199720
+
+epoch  98
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5590343475341797  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6130824089050293
+data move to GPU time/epoch 0.2327899932861328
+* Pure training time/epoch 0.010777711868286133
+       Training time/epoch 0.8567440509796143
+Number of first layer input nodes during this epoch:  2200114
+
+epoch  99
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5593104362487793  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.613562822341919
+data move to GPU time/epoch 0.2342972755432129
+* Pure training time/epoch 0.010229825973510742
+       Training time/epoch 0.8581728935241699
+Number of first layer input nodes during this epoch:  2200221
+
+epoch  100
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5590176582336426  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6143209934234619
+data move to GPU time/epoch 0.23451805114746094
+* Pure training time/epoch 0.011809825897216797
+       Training time/epoch 0.8607463836669922
+Number of first layer input nodes during this epoch:  2199628
+
+epoch  101
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558107376098633  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6127440929412842
+data move to GPU time/epoch 0.2340867519378662
+* Pure training time/epoch 0.012211799621582031
+       Training time/epoch 0.8591413497924805
+Number of first layer input nodes during this epoch:  2200055
+
+epoch  102
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557504653930664  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6132333278656006
+data move to GPU time/epoch 0.23311614990234375
+* Pure training time/epoch 0.01320338249206543
+       Training time/epoch 0.8597018718719482
+Number of first layer input nodes during this epoch:  2199605
+
+epoch  103
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5571842193603516  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6112663745880127
+data move to GPU time/epoch 0.23518037796020508
+* Pure training time/epoch 0.012462854385375977
+       Training time/epoch 0.8590099811553955
+Number of first layer input nodes during this epoch:  2199214
+
+epoch  104
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5599727630615234  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6119611263275146
+data move to GPU time/epoch 0.2342514991760254
+* Pure training time/epoch 0.011834859848022461
+       Training time/epoch 0.858140230178833
+Number of first layer input nodes during this epoch:  2199991
+
+epoch  105
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559617042541504  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6125915050506592
+data move to GPU time/epoch 0.23491287231445312
+* Pure training time/epoch 0.011873722076416016
+       Training time/epoch 0.8594741821289062
+Number of first layer input nodes during this epoch:  2200184
+
+epoch  106
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.560859203338623  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6128368377685547
+data move to GPU time/epoch 0.23454952239990234
+* Pure training time/epoch 0.011892557144165039
+       Training time/epoch 0.8593730926513672
+Number of first layer input nodes during this epoch:  2199885
+
+epoch  107
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557279109954834  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6126570701599121
+data move to GPU time/epoch 0.2335672378540039
+* Pure training time/epoch 0.012002229690551758
+       Training time/epoch 0.858335018157959
+Number of first layer input nodes during this epoch:  2199963
+
+epoch  108
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.55910587310791  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6126348972320557
+data move to GPU time/epoch 0.23708820343017578
+* Pure training time/epoch 0.012726783752441406
+       Training time/epoch 0.8625438213348389
+Number of first layer input nodes during this epoch:  2199536
+
+epoch  109
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5591073036193848  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6120872497558594
+data move to GPU time/epoch 0.23468255996704102
+* Pure training time/epoch 0.011867284774780273
+       Training time/epoch 0.8587465286254883
+Number of first layer input nodes during this epoch:  2200296
+
+epoch  110
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5571212768554688  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6127526760101318
+data move to GPU time/epoch 0.23423361778259277
+* Pure training time/epoch 0.012080192565917969
+       Training time/epoch 0.8591699600219727
+Number of first layer input nodes during this epoch:  2199486
+
+epoch  111
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5599722862243652  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6126923561096191
+data move to GPU time/epoch 0.2349700927734375
+* Pure training time/epoch 0.011897802352905273
+       Training time/epoch 0.8596556186676025
+Number of first layer input nodes during this epoch:  2200239
+
+epoch  112
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557016372680664  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6131095886230469
+data move to GPU time/epoch 0.23509502410888672
+* Pure training time/epoch 0.0118560791015625
+       Training time/epoch 0.8601555824279785
+Number of first layer input nodes during this epoch:  2199760
+
+epoch  113
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5593795776367188  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6127758026123047
+data move to GPU time/epoch 0.23521018028259277
+* Pure training time/epoch 0.011885881423950195
+       Training time/epoch 0.8599669933319092
+Number of first layer input nodes during this epoch:  2200350
+
+epoch  114
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5586724281311035  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6128888130187988
+data move to GPU time/epoch 0.18276619911193848
+* Pure training time/epoch 0.012067317962646484
+       Training time/epoch 0.8078303337097168
+Number of first layer input nodes during this epoch:  2199839
+
+epoch  115
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5595736503601074  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6122133731842041
+data move to GPU time/epoch 0.17470097541809082
+* Pure training time/epoch 0.012168169021606445
+       Training time/epoch 0.7991988658905029
+Number of first layer input nodes during this epoch:  2200494
+
+epoch  116
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5586605072021484  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612067699432373
+data move to GPU time/epoch 0.17382073402404785
+* Pure training time/epoch 0.012033462524414062
+       Training time/epoch 0.7980351448059082
+Number of first layer input nodes during this epoch:  2200202
+
+epoch  117
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5559768676757812  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6125969886779785
+data move to GPU time/epoch 0.1736297607421875
+* Pure training time/epoch 0.012113809585571289
+       Training time/epoch 0.7984564304351807
+Number of first layer input nodes during this epoch:  2200225
+
+epoch  118
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5583105087280273  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612825870513916
+data move to GPU time/epoch 0.237579345703125
+* Pure training time/epoch 0.010775327682495117
+       Training time/epoch 0.8612802028656006
+Number of first layer input nodes during this epoch:  2200535
+
+epoch  119
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5602822303771973  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139042377471924
+data move to GPU time/epoch 0.23297715187072754
+* Pure training time/epoch 0.010596036911010742
+       Training time/epoch 0.8575699329376221
+Number of first layer input nodes during this epoch:  2200197
+
+epoch  120
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5555639266967773  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141884326934814
+data move to GPU time/epoch 0.23314762115478516
+* Pure training time/epoch 0.010630369186401367
+       Training time/epoch 0.8580591678619385
+Number of first layer input nodes during this epoch:  2199427
+
+epoch  121
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558661937713623  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.614006757736206
+data move to GPU time/epoch 0.24584150314331055
+* Pure training time/epoch 0.010657548904418945
+       Training time/epoch 0.8705964088439941
+Number of first layer input nodes during this epoch:  2200228
+
+epoch  122
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5602192878723145  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139841079711914
+data move to GPU time/epoch 0.23373055458068848
+* Pure training time/epoch 0.01065683364868164
+       Training time/epoch 0.8584640026092529
+Number of first layer input nodes during this epoch:  2199881
+
+epoch  123
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558210849761963  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141550540924072
+data move to GPU time/epoch 0.23380541801452637
+* Pure training time/epoch 0.010625362396240234
+       Training time/epoch 0.8586785793304443
+Number of first layer input nodes during this epoch:  2200172
+
+epoch  124
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558838367462158  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6142122745513916
+data move to GPU time/epoch 0.23258185386657715
+* Pure training time/epoch 0.010136842727661133
+       Training time/epoch 0.8570122718811035
+Number of first layer input nodes during this epoch:  2200579
+
+epoch  125
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558351516723633  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139178276062012
+data move to GPU time/epoch 0.2701702117919922
+* Pure training time/epoch 0.010180473327636719
+       Training time/epoch 0.8943500518798828
+Number of first layer input nodes during this epoch:  2200094
+
+epoch  126
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5603671073913574  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6142621040344238
+data move to GPU time/epoch 0.2334129810333252
+* Pure training time/epoch 0.010143041610717773
+       Training time/epoch 0.8579010963439941
+Number of first layer input nodes during this epoch:  2200180
+
+epoch  127
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5581393241882324  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6143302917480469
+data move to GPU time/epoch 0.23255515098571777
+* Pure training time/epoch 0.010134220123291016
+       Training time/epoch 0.857105016708374
+Number of first layer input nodes during this epoch:  2199453
+
+epoch  128
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5565013885498047  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141314506530762
+data move to GPU time/epoch 0.23330307006835938
+* Pure training time/epoch 0.010106325149536133
+       Training time/epoch 0.8576221466064453
+Number of first layer input nodes during this epoch:  2199643
+
+epoch  129
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5589122772216797  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139822006225586
+data move to GPU time/epoch 0.23430228233337402
+* Pure training time/epoch 0.010663032531738281
+       Training time/epoch 0.8590328693389893
+Number of first layer input nodes during this epoch:  2199835
+
+epoch  130
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557607650756836  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6137642860412598
+data move to GPU time/epoch 0.23273110389709473
+* Pure training time/epoch 0.010322332382202148
+       Training time/epoch 0.8569109439849854
+Number of first layer input nodes during this epoch:  2199648
+
+epoch  131
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557359218597412  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6137902736663818
+data move to GPU time/epoch 0.3222005367279053
+* Pure training time/epoch 0.010085821151733398
+       Training time/epoch 0.9461607933044434
+Number of first layer input nodes during this epoch:  2200409
+
+epoch  132
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5603208541870117  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6148996353149414
+data move to GPU time/epoch 0.23310518264770508
+* Pure training time/epoch 0.010194778442382812
+       Training time/epoch 0.8582854270935059
+Number of first layer input nodes during this epoch:  2200080
+
+epoch  133
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559589385986328  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6144640445709229
+data move to GPU time/epoch 0.23255515098571777
+* Pure training time/epoch 0.010144710540771484
+       Training time/epoch 0.8572463989257812
+Number of first layer input nodes during this epoch:  2200537
+
+epoch  134
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5574560165405273  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6139464378356934
+data move to GPU time/epoch 0.24412155151367188
+* Pure training time/epoch 0.010185718536376953
+       Training time/epoch 0.8683388233184814
+Number of first layer input nodes during this epoch:  2199852
+
+epoch  135
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.561035633087158  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6142404079437256
+data move to GPU time/epoch 0.23427081108093262
+* Pure training time/epoch 0.010170221328735352
+       Training time/epoch 0.8587632179260254
+Number of first layer input nodes during this epoch:  2200299
+
+epoch  136
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5596842765808105  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6140620708465576
+data move to GPU time/epoch 0.23364996910095215
+* Pure training time/epoch 0.010161638259887695
+       Training time/epoch 0.8579590320587158
+Number of first layer input nodes during this epoch:  2199984
+
+epoch  137
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558621883392334  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6215479373931885
+data move to GPU time/epoch 0.2340085506439209
+* Pure training time/epoch 0.010113000869750977
+       Training time/epoch 0.8657524585723877
+Number of first layer input nodes during this epoch:  2200125
+
+epoch  138
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5579023361206055  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6140322685241699
+data move to GPU time/epoch 0.23347854614257812
+* Pure training time/epoch 0.010195493698120117
+       Training time/epoch 0.8577916622161865
+Number of first layer input nodes during this epoch:  2200497
+
+epoch  139
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5585241317749023  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6141386032104492
+data move to GPU time/epoch 0.23448419570922852
+* Pure training time/epoch 0.01034402847290039
+       Training time/epoch 0.8590772151947021
+Number of first layer input nodes during this epoch:  2201008
+
+epoch  140
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5583701133728027  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.614722490310669
+data move to GPU time/epoch 0.2340996265411377
+* Pure training time/epoch 0.012598991394042969
+       Training time/epoch 0.8615117073059082
+Number of first layer input nodes during this epoch:  2199982
+
+epoch  141
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558976173400879  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6121199131011963
+data move to GPU time/epoch 0.23473095893859863
+* Pure training time/epoch 0.011817693710327148
+       Training time/epoch 0.8587663173675537
+Number of first layer input nodes during this epoch:  2200478
+
+epoch  142
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5575685501098633  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6132049560546875
+data move to GPU time/epoch 0.23442578315734863
+* Pure training time/epoch 0.011909961700439453
+       Training time/epoch 0.85964035987854
+Number of first layer input nodes during this epoch:  2199971
+
+epoch  143
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558431625366211  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6127333641052246
+data move to GPU time/epoch 0.234147310256958
+* Pure training time/epoch 0.011797666549682617
+       Training time/epoch 0.8587749004364014
+Number of first layer input nodes during this epoch:  2200068
+
+epoch  144
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5587339401245117  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6127772331237793
+data move to GPU time/epoch 0.23459291458129883
+* Pure training time/epoch 0.011794328689575195
+       Training time/epoch 0.8592541217803955
+Number of first layer input nodes during this epoch:  2200386
+
+epoch  145
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5571980476379395  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6127884387969971
+data move to GPU time/epoch 0.23478341102600098
+* Pure training time/epoch 0.011810779571533203
+       Training time/epoch 0.8594765663146973
+Number of first layer input nodes during this epoch:  2199920
+
+epoch  146
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5596208572387695  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6129894256591797
+data move to GPU time/epoch 0.23453998565673828
+* Pure training time/epoch 0.011937856674194336
+       Training time/epoch 0.8595609664916992
+Number of first layer input nodes during this epoch:  2200119
+
+epoch  147
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5601449012756348  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6128866672515869
+data move to GPU time/epoch 0.23331356048583984
+* Pure training time/epoch 0.011764764785766602
+       Training time/epoch 0.8580584526062012
+Number of first layer input nodes during this epoch:  2200005
+
+epoch  148
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557948112487793  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612837553024292
+data move to GPU time/epoch 0.2348957061767578
+* Pure training time/epoch 0.011822700500488281
+       Training time/epoch 0.8596487045288086
+Number of first layer input nodes during this epoch:  2200090
+
+epoch  149
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.560187816619873  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6126203536987305
+data move to GPU time/epoch 0.23494791984558105
+* Pure training time/epoch 0.012184858322143555
+       Training time/epoch 0.8598606586456299
+Number of first layer input nodes during this epoch:  2200072
+
+epoch  150
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5587639808654785  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6127524375915527
+data move to GPU time/epoch 0.23438572883605957
+* Pure training time/epoch 0.011802196502685547
+       Training time/epoch 0.8590364456176758
+Number of first layer input nodes during this epoch:  2200237
+
+epoch  151
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5591344833374023  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6134858131408691
+data move to GPU time/epoch 0.2364962100982666
+* Pure training time/epoch 0.012059688568115234
+       Training time/epoch 0.8621413707733154
+Number of first layer input nodes during this epoch:  2199985
+
+epoch  152
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5576329231262207  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6131081581115723
+data move to GPU time/epoch 0.23975300788879395
+* Pure training time/epoch 0.011834144592285156
+       Training time/epoch 0.864788293838501
+Number of first layer input nodes during this epoch:  2199403
+
+epoch  153
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557803153991699  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6129705905914307
+data move to GPU time/epoch 0.23472166061401367
+* Pure training time/epoch 0.011881589889526367
+       Training time/epoch 0.8596704006195068
+Number of first layer input nodes during this epoch:  2199627
+
+epoch  154
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5597639083862305  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612842321395874
+data move to GPU time/epoch 0.23386096954345703
+* Pure training time/epoch 0.011936664581298828
+       Training time/epoch 0.858741044998169
+Number of first layer input nodes during this epoch:  2200249
+
+epoch  155
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5583596229553223  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6140146255493164
+data move to GPU time/epoch 0.23463034629821777
+* Pure training time/epoch 0.011774539947509766
+       Training time/epoch 0.8605136871337891
+Number of first layer input nodes during this epoch:  2200134
+
+epoch  156
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558579444885254  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6129062175750732
+data move to GPU time/epoch 0.23488116264343262
+* Pure training time/epoch 0.011817455291748047
+       Training time/epoch 0.8597018718719482
+Number of first layer input nodes during this epoch:  2199823
+
+epoch  157
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557662010192871  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612546443939209
+data move to GPU time/epoch 0.235001802444458
+* Pure training time/epoch 0.012022972106933594
+       Training time/epoch 0.859673261642456
+Number of first layer input nodes during this epoch:  2200018
+
+epoch  158
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5557780265808105  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6126759052276611
+data move to GPU time/epoch 0.23534607887268066
+* Pure training time/epoch 0.011751174926757812
+       Training time/epoch 0.8598699569702148
+Number of first layer input nodes during this epoch:  2199748
+
+epoch  159
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5594377517700195  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6128509044647217
+data move to GPU time/epoch 0.2427840232849121
+* Pure training time/epoch 0.011791229248046875
+       Training time/epoch 0.8675191402435303
+Number of first layer input nodes during this epoch:  2200331
+
+epoch  160
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5590310096740723  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6127133369445801
+data move to GPU time/epoch 0.235626220703125
+* Pure training time/epoch 0.011820316314697266
+       Training time/epoch 0.8602533340454102
+Number of first layer input nodes during this epoch:  2199870
+
+epoch  161
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5595459938049316  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612725019454956
+data move to GPU time/epoch 0.23447370529174805
+* Pure training time/epoch 0.012640714645385742
+       Training time/epoch 0.8599317073822021
+Number of first layer input nodes during this epoch:  2200383
+
+epoch  162
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5580358505249023  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6122786998748779
+data move to GPU time/epoch 0.2355179786682129
+* Pure training time/epoch 0.011772632598876953
+       Training time/epoch 0.8596649169921875
+Number of first layer input nodes during this epoch:  2199650
+
+epoch  163
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557854652404785  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6126668453216553
+data move to GPU time/epoch 0.23525261878967285
+* Pure training time/epoch 0.011797904968261719
+       Training time/epoch 0.8598120212554932
+Number of first layer input nodes during this epoch:  2199082
+
+epoch  164
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559870719909668  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612708330154419
+data move to GPU time/epoch 0.234771728515625
+* Pure training time/epoch 0.011775493621826172
+       Training time/epoch 0.859368085861206
+Number of first layer input nodes during this epoch:  2200051
+
+epoch  165
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5584235191345215  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6126775741577148
+data move to GPU time/epoch 0.23435592651367188
+* Pure training time/epoch 0.011821985244750977
+       Training time/epoch 0.8589472770690918
+Number of first layer input nodes during this epoch:  2199728
+
+epoch  166
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5591506958007812  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6124374866485596
+data move to GPU time/epoch 0.23535537719726562
+* Pure training time/epoch 0.011836051940917969
+       Training time/epoch 0.859724760055542
+Number of first layer input nodes during this epoch:  2200342
+
+epoch  167
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5569334030151367  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6124129295349121
+data move to GPU time/epoch 0.23582053184509277
+* Pure training time/epoch 0.011814355850219727
+       Training time/epoch 0.8601405620574951
+Number of first layer input nodes during this epoch:  2199692
+
+epoch  168
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5575156211853027  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6129837036132812
+data move to GPU time/epoch 0.25077247619628906
+* Pure training time/epoch 0.011803627014160156
+       Training time/epoch 0.875652551651001
+Number of first layer input nodes during this epoch:  2199667
+
+epoch  169
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5598201751708984  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6130321025848389
+data move to GPU time/epoch 0.23496437072753906
+* Pure training time/epoch 0.011942148208618164
+       Training time/epoch 0.8600356578826904
+Number of first layer input nodes during this epoch:  2200187
+
+epoch  170
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5595502853393555  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6126821041107178
+data move to GPU time/epoch 0.23847699165344238
+* Pure training time/epoch 0.011774539947509766
+       Training time/epoch 0.8630251884460449
+Number of first layer input nodes during this epoch:  2200080
+
+epoch  171
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.55729341506958  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6131043434143066
+data move to GPU time/epoch 0.25455260276794434
+* Pure training time/epoch 0.011815786361694336
+       Training time/epoch 0.879584550857544
+Number of first layer input nodes during this epoch:  2200065
+
+epoch  172
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5593810081481934  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612598180770874
+data move to GPU time/epoch 0.23447871208190918
+* Pure training time/epoch 0.012537956237792969
+       Training time/epoch 0.8597087860107422
+Number of first layer input nodes during this epoch:  2199446
+
+epoch  173
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558603286743164  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612123966217041
+data move to GPU time/epoch 0.24440360069274902
+* Pure training time/epoch 0.011741161346435547
+       Training time/epoch 0.8683638572692871
+Number of first layer input nodes during this epoch:  2200973
+
+epoch  174
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558211326599121  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6128273010253906
+data move to GPU time/epoch 0.24514293670654297
+* Pure training time/epoch 0.0117950439453125
+       Training time/epoch 0.8698585033416748
+Number of first layer input nodes during this epoch:  2199916
+
+epoch  175
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.560795783996582  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6128177642822266
+data move to GPU time/epoch 0.23469209671020508
+* Pure training time/epoch 0.011854887008666992
+       Training time/epoch 0.859468936920166
+Number of first layer input nodes during this epoch:  2200061
+
+epoch  176
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5586514472961426  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6128659248352051
+data move to GPU time/epoch 0.2487189769744873
+* Pure training time/epoch 0.011761903762817383
+       Training time/epoch 0.8734428882598877
+Number of first layer input nodes during this epoch:  2200346
+
+epoch  177
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5559797286987305  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6131961345672607
+data move to GPU time/epoch 0.23393917083740234
+* Pure training time/epoch 0.011873245239257812
+       Training time/epoch 0.8591139316558838
+Number of first layer input nodes during this epoch:  2199998
+
+epoch  178
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5599026679992676  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612663745880127
+data move to GPU time/epoch 0.23470401763916016
+* Pure training time/epoch 0.011820077896118164
+       Training time/epoch 0.8592872619628906
+Number of first layer input nodes during this epoch:  2200707
+
+epoch  179
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5579519271850586  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6129422187805176
+data move to GPU time/epoch 0.2472364902496338
+* Pure training time/epoch 0.012087583541870117
+       Training time/epoch 0.8723671436309814
+Number of first layer input nodes during this epoch:  2200466
+
+epoch  180
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5585718154907227  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612147331237793
+data move to GPU time/epoch 0.23293733596801758
+* Pure training time/epoch 0.011815071105957031
+       Training time/epoch 0.8569936752319336
+Number of first layer input nodes during this epoch:  2200151
+
+epoch  181
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5578866004943848  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612898588180542
+data move to GPU time/epoch 0.23265910148620605
+* Pure training time/epoch 0.01208353042602539
+       Training time/epoch 0.8577468395233154
+Number of first layer input nodes during this epoch:  2199817
+
+epoch  182
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559007167816162  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6128988265991211
+data move to GPU time/epoch 0.232696533203125
+* Pure training time/epoch 0.011963844299316406
+       Training time/epoch 0.8576560020446777
+Number of first layer input nodes during this epoch:  2199590
+
+epoch  183
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.557753562927246  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6125278472900391
+data move to GPU time/epoch 0.2323448657989502
+* Pure training time/epoch 0.011741161346435547
+       Training time/epoch 0.8567049503326416
+Number of first layer input nodes during this epoch:  2200074
+
+epoch  184
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5578441619873047  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6129963397979736
+data move to GPU time/epoch 0.23299145698547363
+* Pure training time/epoch 0.011770963668823242
+       Training time/epoch 0.85784912109375
+Number of first layer input nodes during this epoch:  2199523
+
+epoch  185
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558350086212158  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6127123832702637
+data move to GPU time/epoch 0.23345422744750977
+* Pure training time/epoch 0.01175236701965332
+       Training time/epoch 0.8580095767974854
+Number of first layer input nodes during this epoch:  2198975
+
+epoch  186
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5587663650512695  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6129710674285889
+data move to GPU time/epoch 0.2333536148071289
+* Pure training time/epoch 0.011802196502685547
+       Training time/epoch 0.8582196235656738
+Number of first layer input nodes during this epoch:  2199968
+
+epoch  187
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5597715377807617  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6125786304473877
+data move to GPU time/epoch 0.2336115837097168
+* Pure training time/epoch 0.011861562728881836
+       Training time/epoch 0.858142614364624
+Number of first layer input nodes during this epoch:  2199642
+
+epoch  188
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.55772066116333  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.613147497177124
+data move to GPU time/epoch 0.2329411506652832
+* Pure training time/epoch 0.011859893798828125
+       Training time/epoch 0.8580543994903564
+Number of first layer input nodes during this epoch:  2199923
+
+epoch  189
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5592713356018066  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6126320362091064
+data move to GPU time/epoch 0.23273944854736328
+* Pure training time/epoch 0.011976480484008789
+       Training time/epoch 0.8574519157409668
+Number of first layer input nodes during this epoch:  2200181
+
+epoch  190
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.558084011077881  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6125504970550537
+data move to GPU time/epoch 0.23268818855285645
+* Pure training time/epoch 0.01200723648071289
+       Training time/epoch 0.857346773147583
+Number of first layer input nodes during this epoch:  2199852
+
+epoch  191
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.55958890914917  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6127183437347412
+data move to GPU time/epoch 0.23278093338012695
+* Pure training time/epoch 0.0118255615234375
+       Training time/epoch 0.8574204444885254
+Number of first layer input nodes during this epoch:  2199899
+
+epoch  192
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5599722862243652  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.612354040145874
+data move to GPU time/epoch 0.23518109321594238
+* Pure training time/epoch 0.011896133422851562
+       Training time/epoch 0.8595249652862549
+Number of first layer input nodes during this epoch:  2199997
+
+epoch  193
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5584897994995117  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6125938892364502
+data move to GPU time/epoch 0.23392653465270996
+* Pure training time/epoch 0.012479782104492188
+       Training time/epoch 0.8590917587280273
+Number of first layer input nodes during this epoch:  2199361
+
+epoch  194
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5585522651672363  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6120145320892334
+data move to GPU time/epoch 0.2336585521697998
+* Pure training time/epoch 0.011797666549682617
+       Training time/epoch 0.8575656414031982
+Number of first layer input nodes during this epoch:  2199554
+
+epoch  195
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5585813522338867  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6131339073181152
+data move to GPU time/epoch 0.23268866539001465
+* Pure training time/epoch 0.012032032012939453
+       Training time/epoch 0.8579587936401367
+Number of first layer input nodes during this epoch:  2200508
+
+epoch  196
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5576205253601074  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6129477024078369
+data move to GPU time/epoch 0.18286633491516113
+* Pure training time/epoch 0.012622356414794922
+       Training time/epoch 0.8085486888885498
+Number of first layer input nodes during this epoch:  2199476
+
+epoch  197
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.559108257293701  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.611879825592041
+data move to GPU time/epoch 0.17667341232299805
+* Pure training time/epoch 0.012703895568847656
+       Training time/epoch 0.8013718128204346
+Number of first layer input nodes during this epoch:  2200490
+
+epoch  198
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5590133666992188  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6123366355895996
+data move to GPU time/epoch 0.23839688301086426
+* Pure training time/epoch 0.01119685173034668
+       Training time/epoch 0.8620345592498779
+Number of first layer input nodes during this epoch:  2200074
+
+epoch  199
+----------------------------------------after optimizer
+ Nvidia-smi: 16.18359375 GB
+    Memory Allocated: 3.5576157569885254  GigaBytes
+Max Memory Allocated: 9.581435680389404  GigaBytes
+
+loader time/epoch 0.6133513450622559
+data move to GPU time/epoch 0.23518061637878418
+* Pure training time/epoch 0.010773181915283203
+       Training time/epoch 0.8594002723693848
+Number of first layer input nodes during this epoch:  2199665
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+loader time/epoch 0.6134103197800486
+mean data move to GPU time/epoch 0.23770143734781365
+mean Pure training time/epoch 0.011266121111418071
+mean dataloder + train time/epoch 0.8624752935610319

@@ -1,0 +1,339 @@
+main start at this time 1681874222.4507153
+-----------------------------------------before load data 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+ogbn-arxiv
+# Nodes: 169343
+# Edges: 2315598
+# Train: 90941
+# Val: 29799
+# Test: 48603
+# Classes: 40
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+
+=-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-=
+Epoch:  0
+REG start----................................
+Convert a graph into a bidirected graph: 1.254 seconds, peak memory: 27.346 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 27.346 GB
+Metis partitioning: 5.352 seconds, peak memory: 27.802 GB
+Split the graph: 5.408 seconds
+Construct subgraphs: 0.012 seconds
+REG metis partition dst partition nids ----.........--=-=-=-=-=-=.......
+REG metis partition end ----................................
+the time spent:  15.708086967468262
+REG construction  time spent:  3.6652491092681885
+pure dgl.metis_partition the time spent:  12.042837858200073
+connection checking time:  1.7067205905914307
+block generation total time  1.5550172328948975
+average batch blocks generation time:  0.7775086164474487
+Number of first layer input nodes during this epoch each batch:  [125497, 85271]
+Number of first layer input nodes during this epoch total:  210768
+Number of last layer output nodes during this epoch each batch:  [46382, 44559]
+Number of last layer output nodes during this epoch total:  90941
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.04585146903991699 |0.26205551624298096 |0.19656598567962646 |0.00025594234466552734 |0.006999492645263672 |0.0016069412231445312 |
+----------------------------------------------------------pseudo_mini_loss sum 4.21280574798584
+
+
+=-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-=
+Epoch:  1
+REG start----................................
+Convert a graph into a bidirected graph: 1.298 seconds, peak memory: 31.949 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 31.949 GB
+Metis partitioning: 5.292 seconds, peak memory: 32.435 GB
+Split the graph: 5.030 seconds
+Construct subgraphs: 0.023 seconds
+REG metis partition dst partition nids ----.........--=-=-=-=-=-=.......
+REG metis partition end ----................................
+the time spent:  15.465174198150635
+REG construction  time spent:  3.8058035373687744
+pure dgl.metis_partition the time spent:  11.65937066078186
+connection checking time:  1.670095682144165
+block generation total time  1.580353021621704
+average batch blocks generation time:  0.790176510810852
+Number of first layer input nodes during this epoch each batch:  [87818, 124378]
+Number of first layer input nodes during this epoch total:  212196
+Number of last layer output nodes during this epoch each batch:  [45471, 45470]
+Number of last layer output nodes during this epoch total:  90941
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03589940071105957 |0.005208492279052734 |0.004358768463134766 |0.00021374225616455078 |0.004520535469055176 |0.00095367431640625 |
+----------------------------------------------------------pseudo_mini_loss sum 3.396806240081787
+
+
+=-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-=
+Epoch:  2
+REG start----................................
+Convert a graph into a bidirected graph: 1.294 seconds, peak memory: 35.453 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 35.453 GB
+Metis partitioning: 5.521 seconds, peak memory: 35.857 GB
+Split the graph: 5.459 seconds
+Construct subgraphs: 0.020 seconds
+REG metis partition dst partition nids ----.........--=-=-=-=-=-=.......
+REG metis partition end ----................................
+the time spent:  16.005613565444946
+REG construction  time spent:  3.692326068878174
+pure dgl.metis_partition the time spent:  12.313287496566772
+connection checking time:  1.7367677688598633
+block generation total time  1.595454216003418
+average batch blocks generation time:  0.797727108001709
+Number of first layer input nodes during this epoch each batch:  [92091, 125186]
+Number of first layer input nodes during this epoch total:  217277
+Number of last layer output nodes during this epoch each batch:  [46482, 44459]
+Number of last layer output nodes during this epoch total:  90941
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03616225719451904 |0.004861354827880859 |0.003945350646972656 |0.00021636486053466797 |0.0030297040939331055 |0.0010294914245605469 |
+----------------------------------------------------------pseudo_mini_loss sum 3.1052932739257812
+
+
+=-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-=
+Epoch:  3
+REG start----................................
+Convert a graph into a bidirected graph: 1.381 seconds, peak memory: 38.820 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 38.820 GB
+Metis partitioning: 5.506 seconds, peak memory: 39.280 GB
+Split the graph: 5.184 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition dst partition nids ----.........--=-=-=-=-=-=.......
+REG metis partition end ----................................
+the time spent:  15.822593450546265
+REG construction  time spent:  3.72552752494812
+pure dgl.metis_partition the time spent:  12.097065925598145
+connection checking time:  1.7172412872314453
+block generation total time  1.5856611728668213
+average batch blocks generation time:  0.7928305864334106
+block dataloader generation time/epoch 19.859392642974854
+Number of first layer input nodes during this epoch each batch:  [91495, 126053]
+Number of first layer input nodes during this epoch total:  217548
+Number of last layer output nodes during this epoch each batch:  [46458, 44483]
+Number of last layer output nodes during this epoch total:  90941
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03656148910522461 |0.0052912235260009766 |0.003935098648071289 |0.00022876262664794922 |0.0022875070571899414 |0.0010633468627929688 |
+----------------------------------------------------------pseudo_mini_loss sum 3.0145087242126465
+
+Total (block generation + training)time/epoch 19.961137533187866
+Training time/epoch 0.10143256187438965
+Training time without block to device /epoch 0.0908501148223877
+Training time without total dataloading part(pure training) /epoch 0.013966083526611328
+load block tensor time/epoch 0.07312297821044922
+block to device time/epoch 0.010582447052001953
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+
+
+=-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-=
+Epoch:  4
+REG start----................................
+Convert a graph into a bidirected graph: 1.307 seconds, peak memory: 42.149 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 42.149 GB
+Metis partitioning: 5.499 seconds, peak memory: 42.622 GB
+Split the graph: 5.282 seconds
+Construct subgraphs: 0.020 seconds
+REG metis partition dst partition nids ----.........--=-=-=-=-=-=.......
+REG metis partition end ----................................
+the time spent:  15.799767255783081
+REG construction  time spent:  3.675901174545288
+pure dgl.metis_partition the time spent:  12.123866081237793
+connection checking time:  1.6821305751800537
+block generation total time  1.5813806056976318
+average batch blocks generation time:  0.7906903028488159
+block dataloader generation time/epoch 19.826314330101013
+Number of first layer input nodes during this epoch each batch:  [87948, 123686]
+Number of first layer input nodes during this epoch total:  211634
+Number of last layer output nodes during this epoch each batch:  [45834, 45107]
+Number of last layer output nodes during this epoch total:  90941
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03778421878814697 |0.008795380592346191 |0.003821849822998047 |0.00021982192993164062 |0.0018509626388549805 |0.0010497570037841797 |
+----------------------------------------------------------pseudo_mini_loss sum 2.9095144271850586
+
+Total (block generation + training)time/epoch 19.932201981544495
+Training time/epoch 0.10978341102600098
+Training time without block to device /epoch 0.0921926498413086
+Training time without total dataloading part(pure training) /epoch 0.012835025787353516
+load block tensor time/epoch 0.07556843757629395
+block to device time/epoch 0.017590761184692383
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+
+
+=-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-=
+Epoch:  5
+REG start----................................
+Convert a graph into a bidirected graph: 1.332 seconds, peak memory: 45.421 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.421 GB
+Metis partitioning: 5.823 seconds, peak memory: 45.828 GB
+Split the graph: 5.678 seconds
+Construct subgraphs: 0.027 seconds
+REG metis partition dst partition nids ----.........--=-=-=-=-=-=.......
+REG metis partition end ----................................
+the time spent:  16.63439965248108
+REG construction  time spent:  3.752531051635742
+pure dgl.metis_partition the time spent:  12.881868600845337
+connection checking time:  1.664987564086914
+block generation total time  1.6066186428070068
+average batch blocks generation time:  0.8033093214035034
+block dataloader generation time/epoch 20.111333926518757
+Number of first layer input nodes during this epoch each batch:  [123843, 92686]
+Number of first layer input nodes during this epoch total:  216529
+Number of last layer output nodes during this epoch each batch:  [44465, 46476]
+Number of last layer output nodes during this epoch total:  90941
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.039292335510253906 |0.008895516395568848 |0.003871440887451172 |0.00022101402282714844 |0.0021829605102539062 |0.001003265380859375 |
+----------------------------------------------------------pseudo_mini_loss sum 2.794368028640747
+
+Total (block generation + training)time/epoch 20.219533999760944
+Training time/epoch 0.11258077621459961
+Training time without block to device /epoch 0.09478974342346191
+Training time without total dataloading part(pure training) /epoch 0.013554096221923828
+load block tensor time/epoch 0.07858467102050781
+block to device time/epoch 0.017791032791137695
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+
+
+=-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-=
+Epoch:  6
+REG start----................................
+Convert a graph into a bidirected graph: 1.298 seconds, peak memory: 48.865 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 48.865 GB
+Metis partitioning: 5.464 seconds, peak memory: 49.320 GB
+Split the graph: 5.297 seconds
+Construct subgraphs: 0.019 seconds
+REG metis partition dst partition nids ----.........--=-=-=-=-=-=.......
+REG metis partition end ----................................
+the time spent:  15.820582628250122
+REG construction  time spent:  3.7247700691223145
+pure dgl.metis_partition the time spent:  12.095812559127808
+connection checking time:  1.6503243446350098
+block generation total time  1.5702004432678223
+average batch blocks generation time:  0.7851002216339111
+block dataloader generation time/epoch 20.02478438615799
+Number of first layer input nodes during this epoch each batch:  [88697, 123403]
+Number of first layer input nodes during this epoch total:  212100
+Number of last layer output nodes during this epoch each batch:  [46196, 44745]
+Number of last layer output nodes during this epoch total:  90941
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03581857681274414 |0.005066037178039551 |0.003967404365539551 |0.00021398067474365234 |0.0037581920623779297 |0.00103759765625 |
+----------------------------------------------------------pseudo_mini_loss sum 2.683504343032837
+
+Total (block generation + training)time/epoch 20.13110065460205
+Training time/epoch 0.10039854049682617
+Training time without block to device /epoch 0.09026646614074707
+Training time without total dataloading part(pure training) /epoch 0.016916751861572266
+load block tensor time/epoch 0.07163715362548828
+block to device time/epoch 0.010132074356079102
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+
+
+=-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-=
+Epoch:  7
+REG start----................................
+Convert a graph into a bidirected graph: 1.316 seconds, peak memory: 51.184 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 51.184 GB
+Metis partitioning: 5.657 seconds, peak memory: 51.663 GB
+Split the graph: 5.015 seconds
+Construct subgraphs: 0.019 seconds
+REG metis partition dst partition nids ----.........--=-=-=-=-=-=.......
+REG metis partition end ----................................
+the time spent:  15.757341623306274
+REG construction  time spent:  3.734443426132202
+pure dgl.metis_partition the time spent:  12.022898197174072
+connection checking time:  1.6762404441833496
+block generation total time  1.5975511074066162
+average batch blocks generation time:  0.7987755537033081
+block dataloader generation time/epoch 19.971976137161256
+Number of first layer input nodes during this epoch each batch:  [91647, 126585]
+Number of first layer input nodes during this epoch total:  218232
+Number of last layer output nodes during this epoch each batch:  [46494, 44447]
+Number of last layer output nodes during this epoch total:  90941
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03902316093444824 |0.0057773590087890625 |0.0038993358612060547 |0.00021851062774658203 |0.003974437713623047 |0.0010254383087158203 |
+----------------------------------------------------------pseudo_mini_loss sum 2.5865888595581055
+
+Total (block generation + training)time/epoch 20.078807163238526
+Training time/epoch 0.10863757133483887
+Training time without block to device /epoch 0.09708285331726074
+Training time without total dataloading part(pure training) /epoch 0.017210006713867188
+load block tensor time/epoch 0.07804632186889648
+block to device time/epoch 0.011554718017578125
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+
+
+=-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-=
+Epoch:  8
+REG start----................................
+Convert a graph into a bidirected graph: 1.342 seconds, peak memory: 52.840 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.840 GB
+Metis partitioning: 5.523 seconds, peak memory: 52.840 GB
+Split the graph: 5.236 seconds
+Construct subgraphs: 0.019 seconds
+REG metis partition dst partition nids ----.........--=-=-=-=-=-=.......
+REG metis partition end ----................................
+the time spent:  15.926078796386719
+REG construction  time spent:  3.7898476123809814
+pure dgl.metis_partition the time spent:  12.136231184005737
+connection checking time:  1.654142141342163
+block generation total time  1.6166188716888428
+average batch blocks generation time:  0.8083094358444214
+block dataloader generation time/epoch 19.964637994766235
+Number of first layer input nodes during this epoch each batch:  [89285, 123309]
+Number of first layer input nodes during this epoch total:  212594
+Number of last layer output nodes during this epoch each batch:  [46177, 44764]
+Number of last layer output nodes during this epoch total:  90941
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.0340193510055542 |0.012006640434265137 |0.003799915313720703 |0.0002002716064453125 |0.0032663345336914062 |0.0009655952453613281 |
+----------------------------------------------------------pseudo_mini_loss sum 2.5048608779907227
+
+Total (block generation + training)time/epoch 20.07225755850474
+Training time/epoch 0.11129212379455566
+Training time without block to device /epoch 0.08727884292602539
+Training time without total dataloading part(pure training) /epoch 0.015498638153076172
+load block tensor time/epoch 0.0680387020111084
+block to device time/epoch 0.024013280868530273
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+
+
+=-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-==-=-=
+Epoch:  9
+REG start----................................
+Convert a graph into a bidirected graph: 1.357 seconds, peak memory: 52.898 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 52.898 GB
+Metis partitioning: 5.545 seconds, peak memory: 52.898 GB
+Split the graph: 5.151 seconds
+Construct subgraphs: 0.024 seconds
+REG metis partition dst partition nids ----.........--=-=-=-=-=-=.......
+REG metis partition end ----................................
+the time spent:  15.862993955612183
+REG construction  time spent:  3.7690587043762207
+pure dgl.metis_partition the time spent:  12.093935251235962
+connection checking time:  1.6992387771606445
+block generation total time  1.5647599697113037
+average batch blocks generation time:  0.7823799848556519
+block dataloader generation time/epoch 19.95609429904393
+Number of first layer input nodes during this epoch each batch:  [91600, 122975]
+Number of first layer input nodes during this epoch total:  214575
+Number of last layer output nodes during this epoch each batch:  [46539, 44402]
+Number of last layer output nodes during this epoch total:  90941
+times | data loading | block to device | model prediction | loss calculation | loss backward |  optimizer step |
+      |0.03720545768737793 |0.006165504455566406 |0.003954410552978516 |0.0002142190933227539 |0.003538370132446289 |0.0010280609130859375 |
+----------------------------------------------------------pseudo_mini_loss sum 2.421023368835449
+
+Total (block generation + training)time/epoch 20.063571316855295
+Training time/epoch 0.10637187957763672
+Training time without block to device /epoch 0.0940408706665039
+Training time without total dataloading part(pure training) /epoch 0.016442060470581055
+load block tensor time/epoch 0.07441091537475586
+block to device time/epoch 0.012331008911132812
+input features size transfer per epoch 0.0
+blocks size to device per epoch 0.0
+

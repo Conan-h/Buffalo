@@ -1,0 +1,46 @@
+ NumNodes: 2708
+  NumEdges: 10556
+  NumFeats: 1433
+  NumClasses: 7
+  NumTrainingSamples: 140
+  NumValidationSamples: 500
+  NumTestSamples: 1000
+Done loading data from cached files.
+success----------------------------------------
+140
+500
+2068
+# Nodes: 2708
+# Edges: 10556
+# Train: 140
+# Val: 500
+# Test: 2068
+# Classes: 7
+
+----------------------------------------start of run function 
+ Nvidia-smi: 1.5087890625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  1433
+
+------accumulated loss is  1.9504610365256667
+
+------accumulated loss is  1.9463360635563731
+
+------accumulated loss is  1.949905626475811
+
+------accumulated loss is  1.9257367588579655
+
+------accumulated loss is  1.9000404188409448
+
+------accumulated loss is  1.9028212362900376
+
+------accumulated loss is  1.8907539127394557
+
+------accumulated loss is  1.871902721002698
+
+------accumulated loss is  1.839756067842245
+
+
+------accumulated loss is  1.817024951800704

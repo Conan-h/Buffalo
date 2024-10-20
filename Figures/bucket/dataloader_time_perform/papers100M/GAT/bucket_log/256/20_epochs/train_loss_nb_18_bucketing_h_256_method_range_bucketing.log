@@ -1,0 +1,56 @@
+main start at this time 1714085861.4262133
+success----------------------------------------
+# Nodes: 111059956
+# Edges: 1615685872
+# Train: 1207179
+# Val: 125265
+# Test: 109727512
+# Classes: 172
+
+in feats:  128
+self._in_src_feats,  128
+self._in_dst_feats 128
+Epoch 1, Learning Rate: 0.001
+the output layer 
+self.num_batch (get_in_degree_bucketing) 18
+get_in_degree_bucketing dst global nid length 1207179
+len(bkt)  132028
+len(bkt)  86214
+len(bkt)  63905
+len(bkt)  51188
+len(bkt)  42783
+len(bkt)  37196
+len(bkt)  32534
+len(bkt)  29230
+len(bkt)  25982
+len(bkt)  23894
+len(bkt)  21638
+len(bkt)  19992
+len(bkt)  18412
+len(bkt)  17082
+len(bkt)  15873
+len(bkt)  14921
+len(bkt)  13503
+len(bkt)  12864
+len(bkt)  11987
+len(bkt)  11400
+len(bkt)  10745
+len(bkt)  9899
+len(bkt)  9352
+len(bkt)  8764
+len(bkt)  233722
+total indegree bucketing result ,  955108
+total zero degree bucketing result ,  252071
+the number of total output nodes match !!!! 
+bucket partitioner: bkt_dst_nodes_list_local length  25
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  18
+range partition time  0.1468665599822998
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.03857874870300293
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.15477418899536133
+step  0
+----------------------------------------before batch_pred = model(blocks, batch_inputs)
+ Nvidia-smi: 2.02777099609375 GB
+    Memory Allocated: 0.7178330421447754  GigaBytes
+Max Memory Allocated: 0.7178330421447754  GigaBytes
+

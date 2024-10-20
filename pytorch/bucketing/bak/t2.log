@@ -1,0 +1,113 @@
+7.230930539146261
+the grouping_fanout_1 called successfully
+capacity  596
+sorted_dict  {23: 594, 22: 585, 21: 544, 20: 495, 18: 454, 19: 448, 17: 426, 16: 409, 15: 389, 14: 381, 13: 361, 12: 331, 11: 282, 10: 281, 9: 253, 8: 211, 7: 181, 6: 165, 5: 132, 4: 95, 3: 72, 1: 53, 2: 47, 0: 31}
+
+weights after sort [594, 585, 544, 495, 454, 448, 426, 409, 389, 381, 361, 331, 282, 281, 253, 211, 181, 165, 132, 95, 72, 53, 47, 31]
+
+remove bucket_id:  [15, 18]
+original bucket_id :,  [8, 5]
+remove weights:  [211 132],             ------------sum 343
+
+before remove weights,  [594, 585, 544, 495, 454, 448, 426, 409, 389, 381, 361, 331, 282, 281, 253, 211, 181, 165, 132, 95, 72, 53, 47, 31]
+after remove pre pack weights,  [594, 585, 544, 495, 454, 448, 426, 409, 389, 381, 361, 331, 282, 281, 253, 181, 165, 95, 72, 53, 47, 31]
+
+remove bucket_id:  [17, 19]
+original bucket_id :,  [4, 1]
+remove weights:  [95 53],               ------------sum 148
+
+before remove weights,  [594, 585, 544, 495, 454, 448, 426, 409, 389, 381, 361, 331, 282, 281, 253, 181, 165, 95, 72, 53, 47, 31]
+after remove pre pack weights,  [594, 585, 544, 495, 454, 448, 426, 409, 389, 381, 361, 331, 282, 281, 253, 181, 165, 72, 47, 31]
+
+remove bucket_id:  [16, 17, 18, 19]
+original bucket_id :,  [6, 3, 2, 0]
+remove weights:  [165  72  47  31],             ------------sum 315
+
+before remove weights,  [594, 585, 544, 495, 454, 448, 426, 409, 389, 381, 361, 331, 282, 281, 253, 181, 165, 72, 47, 31]
+after remove pre pack weights,  [594, 585, 544, 495, 454, 448, 426, 409, 389, 381, 361, 331, 282, 281, 253, 181]
+
+remove bucket_id:  [0]
+original bucket_id :,  [23]
+remove weights:  [594],                 ------------sum 594
+
+before remove weights,  [594, 585, 544, 495, 454, 448, 426, 409, 389, 381, 361, 331, 282, 281, 253, 181]
+after remove pre pack weights,  [585, 544, 495, 454, 448, 426, 409, 389, 381, 361, 331, 282, 281, 253, 181]
+
+remove bucket_id:  [6, 14]
+original bucket_id :,  [16, 7]
+remove weights:  [409 181],             ------------sum 590
+
+before remove weights,  [585, 544, 495, 454, 448, 426, 409, 389, 381, 361, 331, 282, 281, 253, 181]
+after remove pre pack weights,  [585, 544, 495, 454, 448, 426, 389, 381, 361, 331, 282, 281, 253]
+
+remove bucket_id:  [0]
+original bucket_id :,  [22]
+remove weights:  [585],                 ------------sum 585
+
+before remove weights,  [585, 544, 495, 454, 448, 426, 389, 381, 361, 331, 282, 281, 253]
+after remove pre pack weights,  [544, 495, 454, 448, 426, 389, 381, 361, 331, 282, 281, 253]
+
+remove bucket_id:  [8, 11]
+original bucket_id :,  [12, 9]
+remove weights:  [331 253],             ------------sum 584
+
+before remove weights,  [544, 495, 454, 448, 426, 389, 381, 361, 331, 282, 281, 253]
+after remove pre pack weights,  [544, 495, 454, 448, 426, 389, 381, 361, 282, 281]
+
+remove bucket_id:  [8, 9]
+original bucket_id :,  [11, 10]
+remove weights:  [282 281],             ------------sum 563
+
+before remove weights,  [544, 495, 454, 448, 426, 389, 381, 361, 282, 281]
+after remove pre pack weights,  [544, 495, 454, 448, 426, 389, 381, 361]
+
+remove bucket_id:  [0]
+original bucket_id :,  [21]
+remove weights:  [544],                 ------------sum 544
+
+before remove weights,  [544, 495, 454, 448, 426, 389, 381, 361]
+after remove pre pack weights,  [495, 454, 448, 426, 389, 381, 361]
+
+remove bucket_id:  [0]
+original bucket_id :,  [20]
+remove weights:  [495],                 ------------sum 495
+
+before remove weights,  [495, 454, 448, 426, 389, 381, 361]
+after remove pre pack weights,  [454, 448, 426, 389, 381, 361]
+
+remove bucket_id:  [0]
+original bucket_id :,  [18]
+remove weights:  [454],                 ------------sum 454
+
+before remove weights,  [454, 448, 426, 389, 381, 361]
+after remove pre pack weights,  [448, 426, 389, 381, 361]
+
+remove bucket_id:  [0]
+original bucket_id :,  [19]
+remove weights:  [448],                 ------------sum 448
+
+before remove weights,  [448, 426, 389, 381, 361]
+after remove pre pack weights,  [426, 389, 381, 361]
+
+remove bucket_id:  [0]
+original bucket_id :,  [17]
+remove weights:  [426],                 ------------sum 426
+
+before remove weights,  [426, 389, 381, 361]
+after remove pre pack weights,  [389, 381, 361]
+
+remove bucket_id:  [0]
+original bucket_id :,  [15]
+remove weights:  [389],                 ------------sum 389
+
+before remove weights,  [389, 381, 361]
+after remove pre pack weights,  [381, 361]
+
+remove bucket_id:  [0]
+original bucket_id :,  [14]
+remove weights:  [381],                 ------------sum 381
+
+before remove weights,  [381, 361]
+after remove pre pack weights,  [361]
+the last batch value is  361
+G_BUCKET_ID_list [[8, 5], [4, 1], [6, 3, 2, 0], [23], [16, 7], [22], [12, 9], [11, 10], [21], [20], [18], [19], [17], [15], [14], [13]]

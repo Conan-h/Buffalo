@@ -1,0 +1,1 @@
+GATConv can't apply to graph with zero-indegree, such as OGBN-papers100M.

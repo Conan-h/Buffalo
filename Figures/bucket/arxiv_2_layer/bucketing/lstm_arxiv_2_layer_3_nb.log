@@ -1,0 +1,236 @@
+main start at this time 1681879329.1396694
+-----------------------------------------before load data 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+ogbn-arxiv
+# Nodes: 169343
+# Edges: 2315598
+# Train: 90941
+# Val: 29799
+# Test: 48603
+# Classes: 40
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  128
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Epoch:  0
+connection checking time:  2.580176591873169
+block generation total time  2.4127602577209473
+----------------------------------------finish all batches
+ Nvidia-smi: 13.48828125 GB
+    Memory Allocated: 0.09770631790161133  GigaBytes
+Max Memory Allocated: 8.05328893661499  GigaBytes
+
+Number of first layer input nodes during this epoch each batch:  [151649, 128505, 128853]
+Number of first layer input nodes during this epoch total:  409007
+Number of last layer output nodes during this epoch each batch:  [70053, 10444, 10444]
+Number of last layer output nodes during this epoch total:  90941
+----------------------------------------------------------pseudo_mini_loss sum 4.017050743103027
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Epoch:  1
+connection checking time:  2.5136783123016357
+block generation total time  2.4315555095672607
+----------------------------------------finish all batches
+ Nvidia-smi: 13.494140625 GB
+    Memory Allocated: 0.09772634506225586  GigaBytes
+Max Memory Allocated: 8.05328893661499  GigaBytes
+
+Number of first layer input nodes during this epoch each batch:  [151541, 128659, 128633]
+Number of first layer input nodes during this epoch total:  408833
+Number of last layer output nodes during this epoch each batch:  [70053, 10444, 10444]
+Number of last layer output nodes during this epoch total:  90941
+----------------------------------------------------------pseudo_mini_loss sum 3.3167564868927
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Epoch:  2
+connection checking time:  2.556643009185791
+block generation total time  2.3673253059387207
+----------------------------------------finish all batches
+ Nvidia-smi: 13.982421875 GB
+    Memory Allocated: 0.09723949432373047  GigaBytes
+Max Memory Allocated: 8.05328893661499  GigaBytes
+
+Number of first layer input nodes during this epoch each batch:  [151624, 128697, 128585]
+Number of first layer input nodes during this epoch total:  408906
+Number of last layer output nodes during this epoch each batch:  [70053, 10444, 10444]
+Number of last layer output nodes during this epoch total:  90941
+----------------------------------------------------------pseudo_mini_loss sum 3.32930326461792
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Epoch:  3
+connection checking time:  2.4748802185058594
+block generation total time  2.386782169342041
+block dataloader generation time/epoch 5.022271633148193
+----------------------------------------finish all batches
+ Nvidia-smi: 13.982421875 GB
+    Memory Allocated: 0.09746026992797852  GigaBytes
+Max Memory Allocated: 8.05328893661499  GigaBytes
+
+Number of first layer input nodes during this epoch each batch:  [151702, 128713, 128882]
+Number of first layer input nodes during this epoch total:  409297
+Number of last layer output nodes during this epoch each batch:  [70053, 10444, 10444]
+Number of last layer output nodes during this epoch total:  90941
+----------------------------------------------------------pseudo_mini_loss sum 3.164147138595581
+
+Total (block generation + training)time/epoch 5.617634534835815 sec
+Training time/epoch 0.595181941986084 sec (without bucket block generation)
+Training time without block to device /epoch 0.5826990604400635 sec
+Pure Training time without any dataloading part /epoch 0.4119687080383301 sec
+load block tensor time/epoch 0.14952969551086426 sec
+block to device time/epoch 0.012482881546020508 sec
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Epoch:  4
+connection checking time:  2.500399112701416
+block generation total time  2.3701109886169434
+block dataloader generation time/epoch 5.005204439163208
+----------------------------------------finish all batches
+ Nvidia-smi: 13.982421875 GB
+    Memory Allocated: 0.09723758697509766  GigaBytes
+Max Memory Allocated: 8.05328893661499  GigaBytes
+
+Number of first layer input nodes during this epoch each batch:  [151737, 128890, 128632]
+Number of first layer input nodes during this epoch total:  409259
+Number of last layer output nodes during this epoch each batch:  [70053, 10444, 10444]
+Number of last layer output nodes during this epoch total:  90941
+----------------------------------------------------------pseudo_mini_loss sum 2.949899911880493
+
+Total (block generation + training)time/epoch 5.607064962387085 sec
+Training time/epoch 0.6082651615142822 sec (without bucket block generation)
+Training time without block to device /epoch 0.5961613655090332 sec
+Pure Training time without any dataloading part /epoch 0.4347538948059082 sec
+load block tensor time/epoch 0.14163470268249512 sec
+block to device time/epoch 0.012103796005249023 sec
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Epoch:  5
+connection checking time:  2.491532802581787
+block generation total time  2.3628838062286377
+block dataloader generation time/epoch 5.010989507039388
+----------------------------------------finish all batches
+ Nvidia-smi: 13.982421875 GB
+    Memory Allocated: 0.09734487533569336  GigaBytes
+Max Memory Allocated: 8.05328893661499  GigaBytes
+
+Number of first layer input nodes during this epoch each batch:  [151569, 128870, 128639]
+Number of first layer input nodes during this epoch total:  409078
+Number of last layer output nodes during this epoch each batch:  [70053, 10444, 10444]
+Number of last layer output nodes during this epoch total:  90941
+----------------------------------------------------------pseudo_mini_loss sum 2.8829426765441895
+
+Total (block generation + training)time/epoch 5.612016359965007 sec
+Training time/epoch 0.5992758274078369 sec (without bucket block generation)
+Training time without block to device /epoch 0.5865936279296875 sec
+Pure Training time without any dataloading part /epoch 0.4184098243713379 sec
+load block tensor time/epoch 0.1465921401977539 sec
+block to device time/epoch 0.012682199478149414 sec
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Epoch:  6
+connection checking time:  2.566105604171753
+block generation total time  2.35953688621521
+block dataloader generation time/epoch 5.032293200492859
+----------------------------------------finish all batches
+ Nvidia-smi: 13.982421875 GB
+    Memory Allocated: 0.09749889373779297  GigaBytes
+Max Memory Allocated: 8.05328893661499  GigaBytes
+
+Number of first layer input nodes during this epoch each batch:  [151765, 129100, 128514]
+Number of first layer input nodes during this epoch total:  409379
+Number of last layer output nodes during this epoch each batch:  [70053, 10444, 10444]
+Number of last layer output nodes during this epoch total:  90941
+----------------------------------------------------------pseudo_mini_loss sum 2.764775514602661
+
+Total (block generation + training)time/epoch 5.635118246078491 sec
+Training time/epoch 0.6081380844116211 sec (without bucket block generation)
+Training time without block to device /epoch 0.5898096561431885 sec
+Pure Training time without any dataloading part /epoch 0.41811275482177734 sec
+load block tensor time/epoch 0.15041375160217285 sec
+block to device time/epoch 0.018328428268432617 sec
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Epoch:  7
+connection checking time:  2.614238739013672
+block generation total time  2.3786728382110596
+block dataloader generation time/epoch 5.0600292682647705
+----------------------------------------finish all batches
+ Nvidia-smi: 13.982421875 GB
+    Memory Allocated: 0.09737062454223633  GigaBytes
+Max Memory Allocated: 8.05328893661499  GigaBytes
+
+Number of first layer input nodes during this epoch each batch:  [151656, 128648, 128850]
+Number of first layer input nodes during this epoch total:  409154
+Number of last layer output nodes during this epoch each batch:  [70053, 10444, 10444]
+Number of last layer output nodes during this epoch total:  90941
+----------------------------------------------------------pseudo_mini_loss sum 2.708902359008789
+
+Total (block generation + training)time/epoch 5.664376592636108 sec
+Training time/epoch 0.6102359294891357 sec (without bucket block generation)
+Training time without block to device /epoch 0.5974762439727783 sec
+Pure Training time without any dataloading part /epoch 0.42067790031433105 sec
+load block tensor time/epoch 0.1568295955657959 sec
+block to device time/epoch 0.012759685516357422 sec
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Epoch:  8
+connection checking time:  2.48952054977417
+block generation total time  2.3655402660369873
+block dataloader generation time/epoch 5.0572099685668945
+----------------------------------------finish all batches
+ Nvidia-smi: 13.986328125 GB
+    Memory Allocated: 0.09766674041748047  GigaBytes
+Max Memory Allocated: 8.05328893661499  GigaBytes
+
+Number of first layer input nodes during this epoch each batch:  [151485, 128897, 128349]
+Number of first layer input nodes during this epoch total:  408731
+Number of last layer output nodes during this epoch each batch:  [70053, 10444, 10444]
+Number of last layer output nodes during this epoch total:  90941
+----------------------------------------------------------pseudo_mini_loss sum 2.5829029083251953
+
+Total (block generation + training)time/epoch 5.660040378570557 sec
+Training time/epoch 0.5951499938964844 sec (without bucket block generation)
+Training time without block to device /epoch 0.5824451446533203 sec
+Pure Training time without any dataloading part /epoch 0.41440534591674805 sec
+load block tensor time/epoch 0.14825940132141113 sec
+block to device time/epoch 0.012704849243164062 sec
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Epoch:  9
+connection checking time:  2.1322782039642334
+block generation total time  2.3511366844177246
+block dataloader generation time/epoch 4.99094649723598
+----------------------------------------finish all batches
+ Nvidia-smi: 13.986328125 GB
+    Memory Allocated: 0.09744691848754883  GigaBytes
+Max Memory Allocated: 8.05328893661499  GigaBytes
+
+Number of first layer input nodes during this epoch each batch:  [151661, 128678, 128857]
+Number of first layer input nodes during this epoch total:  409196
+Number of last layer output nodes during this epoch each batch:  [70053, 10444, 10444]
+Number of last layer output nodes during this epoch total:  90941
+----------------------------------------------------------pseudo_mini_loss sum 2.4564621448516846
+
+Total (block generation + training)time/epoch 5.593259402683803 sec
+Training time/epoch 0.5991251468658447 sec (without bucket block generation)
+Training time without block to device /epoch 0.5866196155548096 sec
+Pure Training time without any dataloading part /epoch 0.41821742057800293 sec
+load block tensor time/epoch 0.14824485778808594 sec
+block to device time/epoch 0.012505531311035156 sec
+

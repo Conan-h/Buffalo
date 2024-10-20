@@ -1,0 +1,82 @@
+WARNING:root:The OGB package is out of date. Your version is 1.3.5, while the latest version is 1.3.6.
+main start at this time 1681424032.5168343
+-----------------------------------------before load data 
+ Nvidia-smi: 1.6748046875 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+karate data
+{}
+{}
+Graph(num_nodes=7, num_edges=14,
+      ndata_schemes={'label': Scheme(shape=(), dtype=torch.int64), 'feat': Scheme(shape=(4,), dtype=torch.float32)}
+      edata_schemes={})
+#nodes: 7
+#edges: 14
+#classes: 2
+success----------------------------------------
+4
+2
+1
+# Nodes: 7
+# Edges: 14
+# Train: 4
+# Val: 2
+# Test: 1
+# Classes: 2
+
+----------------------------------------start of run function 
+ Nvidia-smi: 1.6748046875 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  4
+src global
+[2, 0, 1, 3, 5, 4]
+dst local
+[0, 1, 2, 3]
+dst global nid  tensor([2, 0, 1, 3])
+corresponding in degs tensor([2, 1, 3, 3])
+degrees val
+tensor([2, 1, 3, 3])
+sorted_val  tensor([1, 2, 3, 3])
+idx  tensor([1, 0, 2, 3])
+before  shuffle  tensor([2, 3])
+batches_nid_list  [tensor([0, 1]), tensor([3, 2])]
+weights_list  [0.5, 0.5]
+src global  tensor([2, 0, 1, 3, 5, 4])
+local nid  tensor([0, 1])
+eqidx  tensor([0, 1])
+after sort based on full batch order  tensor([2, 0])
+
+local nid  tensor([3, 2])
+eqidx  tensor([2, 3])
+after sort based on full batch order  tensor([1, 3])
+
+the batched output global nids  [tensor([2, 0]), tensor([1, 3])]
+check_connections_block*********************************
+tensor([2, 0, 1, 3])
+local_output_nid  [0, 1]
+local_output_nid  [2, 3]
+check_connections_block*********************************
+tensor([2, 0, 1, 3, 5, 4])
+local_output_nid  [0, 1, 2, 3]
+local_output_nid  [2, 3, 1, 0, 4, 5]
+input global nids  tensor([2, 0, 1, 3, 5])
+input features:  tensor([[2., 2., 2., 2.],
+        [0., 0., 0., 0.],
+        [1., 1., 1., 1.],
+        [3., 3., 3., 3.],
+        [5., 5., 5., 5.]], device='cuda:0')
+seeds global nids  tensor([2, 0])
+seeds labels :  tensor([0, 0], device='cuda:0')
+input global nids  tensor([1, 3, 0, 2, 5, 4])
+input features:  tensor([[1., 1., 1., 1.],
+        [3., 3., 3., 3.],
+        [0., 0., 0., 0.],
+        [2., 2., 2., 2.],
+        [5., 5., 5., 5.],
+        [4., 4., 4., 4.]], device='cuda:0')
+seeds global nids  tensor([1, 3])
+seeds labels :  tensor([1, 1], device='cuda:0')
+----------------------------------------------------------pseudo_mini_loss sum 1.6153931617736816

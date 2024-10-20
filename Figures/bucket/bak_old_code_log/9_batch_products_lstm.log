@@ -1,0 +1,78 @@
+main start at this time 1681958272.9725027
+-----------------------------------------before load data 
+ Nvidia-smi: 1.5068359375 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 1.5068359375 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  100
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Epoch:  0
+len(bkt)  173
+len(bkt)  221
+len(bkt)  374
+len(bkt)  456
+len(bkt)  445
+len(bkt)  550
+len(bkt)  655
+len(bkt)  512
+len(bkt)  576
+len(bkt)  640
+len(bkt)  624
+len(bkt)  583
+len(bkt)  615
+len(bkt)  695
+len(bkt)  673
+len(bkt)  614
+len(bkt)  556
+len(bkt)  604
+len(bkt)  584
+len(bkt)  572
+len(bkt)  586
+len(bkt)  592
+len(bkt)  648
+len(bkt)  645
+len(bkt)  183378
+
+
+
+
+
+
+
+
+
+check_connections_block*********************************
+check_connections_block*********************************
+connection checking time:  46.77036714553833
+block generation total time  44.01892948150635
+number of bucket  10
+[ 1  2  3  4  5  6  7  8  9 10]
+number of bucket  24
+[ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24]
+----------------------------------------after one batch
+ Nvidia-smi: 12.9833984375 GB
+    Memory Allocated: 0.20868968963623047  GigaBytes
+Max Memory Allocated: 9.36000919342041  GigaBytes
+
+number of bucket  10
+[ 1  2  3  4  5  6  7  8  9 10]

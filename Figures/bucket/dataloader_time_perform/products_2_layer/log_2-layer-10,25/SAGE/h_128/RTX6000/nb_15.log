@@ -1,0 +1,1349 @@
+main start at this time 1712913278.5834136
+-----------------------------------------before load data 
+ Nvidia-smi: 0.3560791015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.3560791015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+labels  tensor([0, 1, 2,  ..., 8, 2, 4])
+epoch  0
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.11313867568969727
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.00041484832763671875
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.010690450668334961
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.1138460636138916
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.773020029067993
+self.buckets_partition() spend  sec:  0.12455105781555176
+input layer
+dataloader gen time  14.193666696548462
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  3.799323558807373
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.40576171875 GB
+    Memory Allocated: 0.5573339462280273  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 5.199347019195557
+epoch  1
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.11694526672363281
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0006184577941894531
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.011046648025512695
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.11780858039855957
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.769221782684326
+self.buckets_partition() spend  sec:  0.1288764476776123
+input layer
+dataloader gen time  13.821657180786133
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.340651273727417
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.40771484375 GB
+    Memory Allocated: 0.5549368858337402  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 3.4762449264526367
+epoch  2
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.10491108894348145
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0011835098266601562
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.010208606719970703
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.10634446144104004
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.7958784103393555
+self.buckets_partition() spend  sec:  0.11657857894897461
+input layer
+dataloader gen time  16.106117248535156
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.3639681339263916
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5578708648681641  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 2.737234354019165
+epoch  3
+load pickle file time  0.7530157566070557
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.11375021934509277
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.001251220703125
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.01154780387878418
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.1152651309967041
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.750002384185791
+self.buckets_partition() spend  sec:  0.12684416770935059
+input layer
+dataloader gen time  14.40898060798645
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.353220224380493
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5538787841796875  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 2.2324366569519043
+epoch  4
+load pickle file time  0.42951512336730957
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.12199854850769043
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0006110668182373047
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.011188030242919922
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.12278294563293457
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.7831807136535645
+self.buckets_partition() spend  sec:  0.13399052619934082
+input layer
+dataloader gen time  13.272071361541748
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.3722567558288574
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5565633773803711  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.7774462699890137
+epoch  5
+load pickle file time  0.43705010414123535
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.11407923698425293
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0005905628204345703
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.01040506362915039
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.1148228645324707
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.8162193298339844
+self.buckets_partition() spend  sec:  0.1253664493560791
+input layer
+dataloader gen time  12.926013469696045
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.363809585571289
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5558733940124512  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.548604130744934
+epoch  6
+load pickle file time  0.4051170349121094
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.1045682430267334
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0004329681396484375
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.010487556457519531
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.10515570640563965
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.7623047828674316
+self.buckets_partition() spend  sec:  0.11566424369812012
+input layer
+dataloader gen time  12.907416820526123
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.354992151260376
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5548057556152344  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.3912755250930786
+epoch  7
+load pickle file time  0.2828061580657959
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.3666529655456543
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0006756782531738281
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.011324882507324219
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.3674907684326172
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  3.0507702827453613
+self.buckets_partition() spend  sec:  0.37884092330932617
+input layer
+dataloader gen time  12.808163166046143
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.3453946113586426
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.553128719329834  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.2700082063674927
+epoch  8
+load pickle file time  0.34079670906066895
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.1148979663848877
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0006892681121826172
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.010529041290283203
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.11583638191223145
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.805502414703369
+self.buckets_partition() spend  sec:  0.12638545036315918
+input layer
+dataloader gen time  12.865952253341675
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.3563270568847656
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5486307144165039  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.1783002614974976
+epoch  9
+load pickle file time  0.4321284294128418
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.10497355461120605
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0005235671997070312
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.010967016220092773
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.10567021369934082
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.767246723175049
+self.buckets_partition() spend  sec:  0.11665606498718262
+input layer
+dataloader gen time  13.016303777694702
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.3402981758117676
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5557098388671875  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.0853679180145264
+epoch  10
+load pickle file time  0.32635068893432617
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.11374163627624512
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.00044989585876464844
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.010298013687133789
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.11432790756225586
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.800112247467041
+self.buckets_partition() spend  sec:  0.12464475631713867
+input layer
+dataloader gen time  12.620851755142212
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.355700969696045
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.552854061126709  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.0027787685394287
+epoch  11
+load pickle file time  0.32801127433776855
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.11381745338439941
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0009181499481201172
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.010688304901123047
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.11488986015319824
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.7883594036102295
+self.buckets_partition() spend  sec:  0.12560367584228516
+input layer
+dataloader gen time  12.497987985610962
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.346658706665039
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.554497241973877  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 0.9601496458053589
+epoch  12
+load pickle file time  0.4431633949279785
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.11434054374694824
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0005488395690917969
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.010797739028930664
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.1150205135345459
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.7992515563964844
+self.buckets_partition() spend  sec:  0.1258373260498047
+input layer
+dataloader gen time  12.64276671409607
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.3578124046325684
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5582923889160156  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 0.9126051068305969
+epoch  13
+load pickle file time  0.3700098991394043
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.10542941093444824
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0005114078521728516
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.010361194610595703
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.10607528686523438
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.7970681190490723
+self.buckets_partition() spend  sec:  0.1164557933807373
+input layer
+dataloader gen time  12.691491842269897
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.3572375774383545
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5573139190673828  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 0.8780110478401184
+epoch  14
+load pickle file time  0.41983962059020996
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.11433601379394531
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0005390644073486328
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.011281251907348633
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.11531805992126465
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.7922701835632324
+self.buckets_partition() spend  sec:  0.12662124633789062
+input layer
+dataloader gen time  12.815895080566406
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.3494246006011963
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5498394966125488  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 0.8366119861602783
+epoch  15
+load pickle file time  0.3186314105987549
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.11398196220397949
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0004608631134033203
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.009052276611328125
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.11457610130310059
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.78851318359375
+self.buckets_partition() spend  sec:  0.12364578247070312
+input layer
+dataloader gen time  12.722278833389282
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.336880922317505
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5539937019348145  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 0.7958188056945801
+epoch  16
+load pickle file time  0.3547537326812744
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.11562299728393555
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.000461578369140625
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.010736227035522461
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.11623740196228027
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.780240297317505
+self.buckets_partition() spend  sec:  0.12699627876281738
+input layer
+dataloader gen time  12.389366149902344
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.3474347591400146
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5584807395935059  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 0.7623720169067383
+epoch  17
+load pickle file time  0.314072847366333
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.10542917251586914
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0004801750183105469
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.009461402893066406
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.10621237754821777
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.7785959243774414
+self.buckets_partition() spend  sec:  0.11569905281066895
+input layer
+dataloader gen time  12.424407243728638
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.3492395877838135
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5584664344787598  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 0.7297712564468384
+epoch  18
+load pickle file time  0.3667609691619873
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.11464285850524902
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0006854534149169922
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.011890172958374023
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.11547994613647461
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.777012348175049
+self.buckets_partition() spend  sec:  0.12738919258117676
+input layer
+dataloader gen time  12.466207265853882
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.3699705600738525
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5583477020263672  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 0.7026215195655823
+epoch  19
+load pickle file time  0.4213690757751465
+the output layer 
+self.num_batch (get_in_degree_bucketing) 15
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  15
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+the last batch value is  1028
+G_BUCKET_ID_list [[22], [6, 5, 3, 1], [21, 0], [23], [13, 9], [14, 7, 2], [10, 8, 4], [20], [18], [19], [16], [17], [15], [12], [11]]
+G_BUCKET_ID_list length 15
+backpack scheduling spend  0.11407470703125
+len(g_bucket_nids_list)  15
+len(local_split_batches_nid_list)  15
+current group_mem  2.232189497508864
+current group_mem  1.3068242388952873
+current group_mem  2.2282285622209037
+current group_mem  2.223171411479282
+current group_mem  2.2199646769036976
+current group_mem  2.2155376024494022
+current group_mem  2.1752215580623586
+current group_mem  1.920127067184496
+current group_mem  1.793769060001223
+current group_mem  1.6766132844613435
+current group_mem  1.6565154083265854
+current group_mem  1.5991467489715145
+current group_mem  1.4645761989081698
+current group_mem  1.2832128918560093
+current group_mem  1.0285266294845892
+batches output list generation spend  0.0005142688751220703
+self.weights_list  [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.011594057083129883
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.11472940444946289
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  2.790797233581543
+self.buckets_partition() spend  sec:  0.1263432502746582
+input layer
+dataloader gen time  12.49356746673584
+weights_list [0.0654928753478387, 0.0717705053136017, 0.06608808013389564, 0.06547761368665775, 0.06898779575827564, 0.07012733312645304, 0.07056483408030687, 0.06517746768343245, 0.06516729324264516, 0.06510624659792136, 0.06502485107162298, 0.06526903765051813, 0.06531990985445463, 0.06532499707484828, 0.06510115937752771]
+step  0
+step  1
+step  2
+step  3
+step  4
+step  5
+step  6
+step  7
+step  8
+step  9
+step  10
+step  11
+step  12
+step  13
+step  14
+pure train time  2.3567237854003906
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 19.41943359375 GB
+    Memory Allocated: 0.5543942451477051  GigaBytes
+Max Memory Allocated: 17.732502937316895  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 0.6764601469039917
+Total (block generation + training)time/epoch 18.605459507773904
+pure train time/epoch 2.35376013815403
+dataloader time  [14.40898060798645, 13.272071361541748, 12.926013469696045, 12.907416820526123, 12.808163166046143, 12.865952253341675, 13.016303777694702, 12.620851755142212, 12.497987985610962, 12.64276671409607, 12.691491842269897, 12.815895080566406, 12.722278833389282, 12.389366149902344, 12.424407243728638, 12.466207265853882, 12.49356746673584]
+dataloader time avg per epoch 12.650403041106005
+
+num_input_list  [14405857, 14405155, 14400654, 14411446, 14406991, 14404197, 14408904, 14404579, 14401087, 14402602, 14399254, 14405935, 14399069, 14393311, 14398770, 14396485, 14400684, 14398716, 14402396, 14398100]

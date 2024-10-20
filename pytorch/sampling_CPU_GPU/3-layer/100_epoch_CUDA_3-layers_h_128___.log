@@ -1,0 +1,483 @@
+main start at this time 1704344173.2682064
+-----------------------------------------before load data 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  100
+----------------------------------------after model to device
+ Nvidia-smi: 1.34375 GB
+    Memory Allocated: 0.00026226043701171875  GigaBytes
+Max Memory Allocated: 0.00026226043701171875  GigaBytes
+
+
+epoch  0
+Number of first layer input nodes during this epoch:  2199968
+
+epoch  1
+Number of first layer input nodes during this epoch:  2200520
+
+epoch  2
+Number of first layer input nodes during this epoch:  2200838
+
+epoch  3
+Number of first layer input nodes during this epoch:  2199382
+
+epoch  4
+Number of first layer input nodes during this epoch:  2199679
+
+epoch  5
+Number of first layer input nodes during this epoch:  2199781
+
+epoch  6
+Number of first layer input nodes during this epoch:  2199971
+
+epoch  7
+Number of first layer input nodes during this epoch:  2200055
+
+epoch  8
+Number of first layer input nodes during this epoch:  2200568
+
+epoch  9
+Number of first layer input nodes during this epoch:  2200085
+
+epoch  10
+* Pure training time/epoch 0.35777997970581055
+       Training time/epoch 6.313388109207153
+Number of first layer input nodes during this epoch:  2199984
+
+epoch  11
+* Pure training time/epoch 0.24545955657958984
+       Training time/epoch 6.584728002548218
+Number of first layer input nodes during this epoch:  2200057
+
+epoch  12
+* Pure training time/epoch 0.26316380500793457
+       Training time/epoch 6.22137188911438
+Number of first layer input nodes during this epoch:  2200357
+
+epoch  13
+* Pure training time/epoch 0.3823089599609375
+       Training time/epoch 6.376784801483154
+Number of first layer input nodes during this epoch:  2199735
+
+epoch  14
+* Pure training time/epoch 0.2594187259674072
+       Training time/epoch 6.5223448276519775
+Number of first layer input nodes during this epoch:  2200167
+
+epoch  15
+* Pure training time/epoch 0.24508118629455566
+       Training time/epoch 6.062326192855835
+Number of first layer input nodes during this epoch:  2200093
+
+epoch  16
+* Pure training time/epoch 0.39014148712158203
+       Training time/epoch 6.339337587356567
+Number of first layer input nodes during this epoch:  2199888
+
+epoch  17
+* Pure training time/epoch 0.24544835090637207
+       Training time/epoch 6.439025640487671
+Number of first layer input nodes during this epoch:  2199932
+
+epoch  18
+* Pure training time/epoch 0.24474215507507324
+       Training time/epoch 6.044770002365112
+Number of first layer input nodes during this epoch:  2200371
+
+epoch  19
+* Pure training time/epoch 0.25835347175598145
+       Training time/epoch 6.286807537078857
+Number of first layer input nodes during this epoch:  2200044
+
+epoch  20
+* Pure training time/epoch 0.33422398567199707
+       Training time/epoch 6.524428606033325
+Number of first layer input nodes during this epoch:  2199722
+
+epoch  21
+* Pure training time/epoch 0.2443561553955078
+       Training time/epoch 6.02935528755188
+Number of first layer input nodes during this epoch:  2200169
+
+epoch  22
+* Pure training time/epoch 0.24496960639953613
+       Training time/epoch 6.321456670761108
+Number of first layer input nodes during this epoch:  2199642
+
+epoch  23
+* Pure training time/epoch 0.3406944274902344
+       Training time/epoch 6.094116687774658
+Number of first layer input nodes during this epoch:  2199481
+
+epoch  24
+* Pure training time/epoch 0.2745325565338135
+       Training time/epoch 6.346595048904419
+Number of first layer input nodes during this epoch:  2199859
+
+epoch  25
+* Pure training time/epoch 0.2500271797180176
+       Training time/epoch 6.674670219421387
+Number of first layer input nodes during this epoch:  2200408
+
+epoch  26
+* Pure training time/epoch 0.3910071849822998
+       Training time/epoch 6.43721604347229
+Number of first layer input nodes during this epoch:  2199907
+
+epoch  27
+* Pure training time/epoch 0.24260735511779785
+       Training time/epoch 6.0003273487091064
+Number of first layer input nodes during this epoch:  2199957
+
+epoch  28
+* Pure training time/epoch 0.244171142578125
+       Training time/epoch 6.735696792602539
+Number of first layer input nodes during this epoch:  2199903
+
+epoch  29
+* Pure training time/epoch 0.33770132064819336
+       Training time/epoch 6.491437196731567
+Number of first layer input nodes during this epoch:  2200116
+
+epoch  30
+* Pure training time/epoch 0.2441864013671875
+       Training time/epoch 6.165567636489868
+Number of first layer input nodes during this epoch:  2200347
+
+epoch  31
+* Pure training time/epoch 0.2474520206451416
+       Training time/epoch 6.5073137283325195
+Number of first layer input nodes during this epoch:  2199507
+
+epoch  32
+* Pure training time/epoch 0.3385753631591797
+       Training time/epoch 6.4960997104644775
+Number of first layer input nodes during this epoch:  2200323
+
+epoch  33
+* Pure training time/epoch 0.2440195083618164
+       Training time/epoch 6.116532564163208
+Number of first layer input nodes during this epoch:  2198869
+
+epoch  34
+* Pure training time/epoch 0.251140832901001
+       Training time/epoch 6.329226970672607
+Number of first layer input nodes during this epoch:  2199976
+
+epoch  35
+* Pure training time/epoch 0.3309783935546875
+       Training time/epoch 6.3905348777771
+Number of first layer input nodes during this epoch:  2200619
+
+epoch  36
+* Pure training time/epoch 0.24289584159851074
+       Training time/epoch 6.1062517166137695
+Number of first layer input nodes during this epoch:  2199793
+
+epoch  37
+* Pure training time/epoch 0.24388527870178223
+       Training time/epoch 6.565027236938477
+Number of first layer input nodes during this epoch:  2199624
+
+epoch  38
+* Pure training time/epoch 0.35385680198669434
+       Training time/epoch 6.766240835189819
+Number of first layer input nodes during this epoch:  2200061
+
+epoch  39
+* Pure training time/epoch 0.24587130546569824
+       Training time/epoch 6.157334327697754
+Number of first layer input nodes during this epoch:  2200184
+
+epoch  40
+* Pure training time/epoch 0.2630269527435303
+       Training time/epoch 6.676823139190674
+Number of first layer input nodes during this epoch:  2200586
+
+epoch  41
+* Pure training time/epoch 0.3859832286834717
+       Training time/epoch 6.636720895767212
+Number of first layer input nodes during this epoch:  2200140
+
+epoch  42
+* Pure training time/epoch 0.24432086944580078
+       Training time/epoch 6.124097585678101
+Number of first layer input nodes during this epoch:  2199258
+
+epoch  43
+* Pure training time/epoch 0.24361896514892578
+       Training time/epoch 6.497041702270508
+Number of first layer input nodes during this epoch:  2199986
+
+epoch  44
+* Pure training time/epoch 0.34502077102661133
+       Training time/epoch 6.367383003234863
+Number of first layer input nodes during this epoch:  2200790
+
+epoch  45
+* Pure training time/epoch 0.18112421035766602
+       Training time/epoch 5.886298418045044
+Number of first layer input nodes during this epoch:  2199837
+
+epoch  46
+* Pure training time/epoch 0.25328540802001953
+       Training time/epoch 6.6580164432525635
+Number of first layer input nodes during this epoch:  2199685
+
+epoch  47
+* Pure training time/epoch 0.34389352798461914
+       Training time/epoch 6.629946947097778
+Number of first layer input nodes during this epoch:  2199607
+
+epoch  48
+* Pure training time/epoch 0.24695229530334473
+       Training time/epoch 6.124720811843872
+Number of first layer input nodes during this epoch:  2199469
+
+epoch  49
+* Pure training time/epoch 0.24750065803527832
+       Training time/epoch 6.444067478179932
+Number of first layer input nodes during this epoch:  2199408
+
+epoch  50
+* Pure training time/epoch 0.4052164554595947
+       Training time/epoch 6.861313343048096
+Number of first layer input nodes during this epoch:  2199968
+
+epoch  51
+* Pure training time/epoch 0.2454545497894287
+       Training time/epoch 6.192119836807251
+Number of first layer input nodes during this epoch:  2199989
+
+epoch  52
+* Pure training time/epoch 0.2610483169555664
+       Training time/epoch 6.528223514556885
+Number of first layer input nodes during this epoch:  2199788
+
+epoch  53
+* Pure training time/epoch 0.33110523223876953
+       Training time/epoch 6.489282608032227
+Number of first layer input nodes during this epoch:  2200302
+
+epoch  54
+* Pure training time/epoch 0.2473130226135254
+       Training time/epoch 6.129322052001953
+Number of first layer input nodes during this epoch:  2201005
+
+epoch  55
+* Pure training time/epoch 0.26107358932495117
+       Training time/epoch 6.407444477081299
+Number of first layer input nodes during this epoch:  2200006
+
+epoch  56
+* Pure training time/epoch 0.3899080753326416
+       Training time/epoch 6.603308916091919
+Number of first layer input nodes during this epoch:  2200151
+
+epoch  57
+* Pure training time/epoch 0.24889421463012695
+       Training time/epoch 6.066070318222046
+Number of first layer input nodes during this epoch:  2200537
+
+epoch  58
+* Pure training time/epoch 0.25722241401672363
+       Training time/epoch 6.468633651733398
+Number of first layer input nodes during this epoch:  2199946
+
+epoch  59
+* Pure training time/epoch 0.2550837993621826
+       Training time/epoch 6.243886947631836
+Number of first layer input nodes during this epoch:  2200828
+
+epoch  60
+* Pure training time/epoch 0.25049901008605957
+       Training time/epoch 6.212093114852905
+Number of first layer input nodes during this epoch:  2200185
+
+epoch  61
+* Pure training time/epoch 0.26146674156188965
+       Training time/epoch 6.550666570663452
+Number of first layer input nodes during this epoch:  2200024
+
+epoch  62
+* Pure training time/epoch 0.42616915702819824
+       Training time/epoch 6.80284571647644
+Number of first layer input nodes during this epoch:  2199476
+
+epoch  63
+* Pure training time/epoch 0.2640080451965332
+       Training time/epoch 6.66059684753418
+Number of first layer input nodes during this epoch:  2199947
+
+epoch  64
+* Pure training time/epoch 0.24441123008728027
+       Training time/epoch 6.125929594039917
+Number of first layer input nodes during this epoch:  2199842
+
+epoch  65
+* Pure training time/epoch 0.3283360004425049
+       Training time/epoch 6.482108116149902
+Number of first layer input nodes during this epoch:  2200624
+
+epoch  66
+* Pure training time/epoch 0.24500012397766113
+       Training time/epoch 6.426873445510864
+Number of first layer input nodes during this epoch:  2200289
+
+epoch  67
+* Pure training time/epoch 0.29706668853759766
+       Training time/epoch 6.348507881164551
+Number of first layer input nodes during this epoch:  2200773
+
+epoch  68
+* Pure training time/epoch 0.2791016101837158
+       Training time/epoch 6.515094518661499
+Number of first layer input nodes during this epoch:  2199563
+
+epoch  69
+* Pure training time/epoch 0.2443528175354004
+       Training time/epoch 6.059205532073975
+Number of first layer input nodes during this epoch:  2200347
+
+epoch  70
+* Pure training time/epoch 0.3017313480377197
+       Training time/epoch 6.413899660110474
+Number of first layer input nodes during this epoch:  2200741
+
+epoch  71
+* Pure training time/epoch 0.28153252601623535
+       Training time/epoch 6.62564754486084
+Number of first layer input nodes during this epoch:  2199302
+
+epoch  72
+* Pure training time/epoch 0.24416184425354004
+       Training time/epoch 6.209796667098999
+Number of first layer input nodes during this epoch:  2199706
+
+epoch  73
+* Pure training time/epoch 0.3275766372680664
+       Training time/epoch 6.288022994995117
+Number of first layer input nodes during this epoch:  2200222
+
+epoch  74
+* Pure training time/epoch 0.24496006965637207
+       Training time/epoch 6.007126569747925
+Number of first layer input nodes during this epoch:  2199835
+
+epoch  75
+* Pure training time/epoch 0.25806498527526855
+       Training time/epoch 6.876035928726196
+Number of first layer input nodes during this epoch:  2199403
+
+epoch  76
+* Pure training time/epoch 0.2493431568145752
+       Training time/epoch 6.139398097991943
+Number of first layer input nodes during this epoch:  2200209
+
+epoch  77
+* Pure training time/epoch 0.27761363983154297
+       Training time/epoch 6.121936321258545
+Number of first layer input nodes during this epoch:  2199554
+
+epoch  78
+* Pure training time/epoch 0.30705761909484863
+       Training time/epoch 6.472424507141113
+Number of first layer input nodes during this epoch:  2200780
+
+epoch  79
+* Pure training time/epoch 0.24943900108337402
+       Training time/epoch 6.080564975738525
+Number of first layer input nodes during this epoch:  2199992
+
+epoch  80
+* Pure training time/epoch 0.2450258731842041
+       Training time/epoch 6.533673524856567
+Number of first layer input nodes during this epoch:  2200480
+
+epoch  81
+* Pure training time/epoch 0.3232722282409668
+       Training time/epoch 6.249228477478027
+Number of first layer input nodes during this epoch:  2201218
+
+epoch  82
+* Pure training time/epoch 0.24464130401611328
+       Training time/epoch 6.2073516845703125
+Number of first layer input nodes during this epoch:  2199630
+
+epoch  83
+* Pure training time/epoch 0.24467825889587402
+       Training time/epoch 6.474838972091675
+Number of first layer input nodes during this epoch:  2199772
+
+epoch  84
+* Pure training time/epoch 0.32637858390808105
+       Training time/epoch 6.3750364780426025
+Number of first layer input nodes during this epoch:  2199859
+
+epoch  85
+* Pure training time/epoch 0.24429965019226074
+       Training time/epoch 5.985306262969971
+Number of first layer input nodes during this epoch:  2200453
+
+epoch  86
+* Pure training time/epoch 0.24520587921142578
+       Training time/epoch 6.5989532470703125
+Number of first layer input nodes during this epoch:  2200197
+
+epoch  87
+* Pure training time/epoch 0.39119935035705566
+       Training time/epoch 6.573575973510742
+Number of first layer input nodes during this epoch:  2199949
+
+epoch  88
+* Pure training time/epoch 0.2498922348022461
+       Training time/epoch 6.105682611465454
+Number of first layer input nodes during this epoch:  2199969
+
+epoch  89
+* Pure training time/epoch 0.24490141868591309
+       Training time/epoch 6.661323308944702
+Number of first layer input nodes during this epoch:  2200139
+
+epoch  90
+* Pure training time/epoch 0.3290829658508301
+       Training time/epoch 6.508965253829956
+Number of first layer input nodes during this epoch:  2199592
+
+epoch  91
+* Pure training time/epoch 0.24415111541748047
+       Training time/epoch 6.182974815368652
+Number of first layer input nodes during this epoch:  2200445
+
+epoch  92
+* Pure training time/epoch 0.24489140510559082
+       Training time/epoch 6.485005617141724
+Number of first layer input nodes during this epoch:  2200358
+
+epoch  93
+* Pure training time/epoch 0.328594446182251
+       Training time/epoch 6.40072774887085
+Number of first layer input nodes during this epoch:  2200151
+
+epoch  94

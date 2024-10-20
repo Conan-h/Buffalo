@@ -1,0 +1,220 @@
+main start at this time 1703885966.1955712
+-----------------------------------------before load data 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  100
+----------------------------------------before model to device 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+----------------------------------------after model to device
+ Nvidia-smi: 1.345703125 GB
+    Memory Allocated: 0.0002803802490234375  GigaBytes
+Max Memory Allocated: 0.0002803802490234375  GigaBytes
+
+----------------------------------------before batch input features to device
+ Nvidia-smi: 1.72265625 GB
+    Memory Allocated: 0.26218605041503906  GigaBytes
+Max Memory Allocated: 0.26218605041503906  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 2.41796875 GB
+    Memory Allocated: 0.9574985504150391  GigaBytes
+Max Memory Allocated: 0.9574985504150391  GigaBytes
+
+<class 'torch.Tensor'>
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 2.4375 GB
+    Memory Allocated: 0.9604282379150391  GigaBytes
+Max Memory Allocated: 0.9604282379150391  GigaBytes
+
+Number of first layer input nodes during this epoch:  1829023
+----------------------------------------before batch input features to device
+ Nvidia-smi: 8.892578125 GB
+    Memory Allocated: 1.0922532081604004  GigaBytes
+Max Memory Allocated: 6.6176652908325195  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 8.892578125 GB
+    Memory Allocated: 1.787203311920166  GigaBytes
+Max Memory Allocated: 6.6176652908325195  GigaBytes
+
+<class 'torch.Tensor'>
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 8.892578125 GB
+    Memory Allocated: 1.790452480316162  GigaBytes
+Max Memory Allocated: 6.6176652908325195  GigaBytes
+
+Number of first layer input nodes during this epoch:  1828792
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.328125 GB
+    Memory Allocated: 1.092531681060791  GigaBytes
+Max Memory Allocated: 6.625059604644775  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.328125 GB
+    Memory Allocated: 1.787844181060791  GigaBytes
+Max Memory Allocated: 6.625059604644775  GigaBytes
+
+<class 'torch.Tensor'>
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.328125 GB
+    Memory Allocated: 1.791093349456787  GigaBytes
+Max Memory Allocated: 6.625059604644775  GigaBytes
+
+Number of first layer input nodes during this epoch:  1828694
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.611328125 GB
+    Memory Allocated: 1.093022346496582  GigaBytes
+Max Memory Allocated: 6.625059604644775  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.611328125 GB
+    Memory Allocated: 1.7880258560180664  GigaBytes
+Max Memory Allocated: 6.625059604644775  GigaBytes
+
+<class 'torch.Tensor'>
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.611328125 GB
+    Memory Allocated: 1.7909555435180664  GigaBytes
+Max Memory Allocated: 6.625059604644775  GigaBytes
+
+Number of first layer input nodes during this epoch:  1828935
+----------------------------------------before batch input features to device
+ Nvidia-smi: 10.89453125 GB
+    Memory Allocated: 1.0919456481933594  GigaBytes
+Max Memory Allocated: 6.625059604644775  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 10.89453125 GB
+    Memory Allocated: 1.7872581481933594  GigaBytes
+Max Memory Allocated: 6.625059604644775  GigaBytes
+
+<class 'torch.Tensor'>
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 10.89453125 GB
+    Memory Allocated: 1.7908267974853516  GigaBytes
+Max Memory Allocated: 6.625059604644775  GigaBytes
+
+* Pure training time/epoch 0.3436927795410156
+Training time/epoch 2.235048294067383
+Number of first layer input nodes during this epoch:  1828563
+----------------------------------------before batch input features to device
+ Nvidia-smi: 11.177734375 GB
+    Memory Allocated: 1.0925750732421875  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 11.177734375 GB
+    Memory Allocated: 1.7875275611877441  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+<class 'torch.Tensor'>
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 11.177734375 GB
+    Memory Allocated: 1.7907767295837402  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+* Pure training time/epoch 0.2957751750946045
+Training time/epoch 2.2605018615722656
+Number of first layer input nodes during this epoch:  1828798
+----------------------------------------before batch input features to device
+ Nvidia-smi: 11.4609375 GB
+    Memory Allocated: 1.092362403869629  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 11.4609375 GB
+    Memory Allocated: 1.7873692512512207  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+<class 'torch.Tensor'>
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 11.4609375 GB
+    Memory Allocated: 1.7906184196472168  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+* Pure training time/epoch 0.20720911026000977
+Training time/epoch 2.147606611251831
+Number of first layer input nodes during this epoch:  1828944
+----------------------------------------before batch input features to device
+ Nvidia-smi: 11.744140625 GB
+    Memory Allocated: 1.0923428535461426  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 11.744140625 GB
+    Memory Allocated: 1.7870502471923828  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+<class 'torch.Tensor'>
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 11.744140625 GB
+    Memory Allocated: 1.790618896484375  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+* Pure training time/epoch 0.21495413780212402
+Training time/epoch 2.4348180294036865
+Number of first layer input nodes during this epoch:  1828140
+----------------------------------------before batch input features to device
+ Nvidia-smi: 13.177734375 GB
+    Memory Allocated: 1.0919694900512695  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 13.177734375 GB
+    Memory Allocated: 1.7872819900512695  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+<class 'torch.Tensor'>
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 13.177734375 GB
+    Memory Allocated: 1.7905311584472656  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+* Pure training time/epoch 0.20543265342712402
+Training time/epoch 2.286428213119507
+Number of first layer input nodes during this epoch:  1829157
+----------------------------------------before batch input features to device
+ Nvidia-smi: 13.4609375 GB
+    Memory Allocated: 1.0927019119262695  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 13.4609375 GB
+    Memory Allocated: 1.7877326011657715  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+<class 'torch.Tensor'>
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 13.4609375 GB
+    Memory Allocated: 1.7913012504577637  GigaBytes
+Max Memory Allocated: 6.62548828125  GigaBytes
+
+* Pure training time/epoch 0.2050323486328125
+Training time/epoch 2.2232143878936768
+Number of first layer input nodes during this epoch:  1829008
+mean Pure training time/epoch 0.24534936745961508
+mean dataloder + train time/epoch 2.2646028995513916

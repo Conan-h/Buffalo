@@ -1,0 +1,99 @@
+main start at this time 1714086456.208875
+-----------------------------------------before load data 
+ Nvidia-smi: 0.80816650390625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+success----------------------------------------
+# Nodes: 111059956
+# Edges: 1615685872
+# Train: 1207179
+# Val: 125265
+# Test: 109727512
+# Classes: 172
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.80816650390625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+the output layer 
+self.num_batch (get_in_degree_bucketing) 9
+get_in_degree_bucketing dst global nid length 1207179
+len(bkt)  132028
+len(bkt)  86214
+len(bkt)  63905
+len(bkt)  51188
+len(bkt)  42783
+len(bkt)  37196
+len(bkt)  32534
+len(bkt)  29230
+len(bkt)  25982
+len(bkt)  23894
+len(bkt)  21638
+len(bkt)  19992
+len(bkt)  18412
+len(bkt)  17082
+len(bkt)  15873
+len(bkt)  14921
+len(bkt)  13503
+len(bkt)  12864
+len(bkt)  11987
+len(bkt)  11400
+len(bkt)  10745
+len(bkt)  9899
+len(bkt)  9352
+len(bkt)  8764
+len(bkt)  233722
+total indegree bucketing result ,  955108
+total zero degree bucketing result ,  252071
+the number of total output nodes match !!!! 
+bucket partitioner: bkt_dst_nodes_list_local length  25
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  9
+Convert a graph into a bidirected graph: 0.837 seconds, peak memory: 167.183 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 167.183 GB
+Metis partitioning: 4.879 seconds, peak memory: 167.183 GB
+Split the graph: 1.971 seconds
+Construct subgraphs: 0.014 seconds
+metis partition ---------------pure dgl.metis_partition spent  7.7225542068481445
+134409
+134394
+134903
+135165
+136365
+134910
+132454
+132234
+132345
+metis partition time  7.7364161014556885
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.06084609031677246
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  7.799586534500122
+step  0
+----------------------------------------before batch input features to device
+ Nvidia-smi: 1.22113037109375 GB
+    Memory Allocated: 0.003025054931640625  GigaBytes
+Max Memory Allocated: 0.003025054931640625  GigaBytes
+
+----------------------------------------after batch input features to device
+ Nvidia-smi: 1.29339599609375 GB
+    Memory Allocated: 0.07529067993164062  GigaBytes
+Max Memory Allocated: 0.07529067993164062  GigaBytes
+
+<class 'torch.Tensor'>
+cuda:0
+----------------------------------------after  batch labels to device
+ Nvidia-smi: 1.31292724609375 GB
+    Memory Allocated: 0.07629251480102539  GigaBytes
+Max Memory Allocated: 0.07629251480102539  GigaBytes
+
+----------------------------------------before batch_pred = model(blocks, batch_inputs)
+ Nvidia-smi: 1.31292724609375 GB
+    Memory Allocated: 0.07643270492553711  GigaBytes
+Max Memory Allocated: 0.07643270492553711  GigaBytes
+
+----------------------------------------after batch_pred = model(blocks, batch_inputs)
+ Nvidia-smi: 2.41058349609375 GB
+    Memory Allocated: 0.8139057159423828  GigaBytes
+Max Memory Allocated: 0.987401008605957  GigaBytes
+

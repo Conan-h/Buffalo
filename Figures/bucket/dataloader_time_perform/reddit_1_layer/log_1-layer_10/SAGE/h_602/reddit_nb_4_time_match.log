@@ -1,0 +1,605 @@
+main start at this time 1713047417.077705
+-----------------------------------------before load data 
+ Nvidia-smi: 0.3560791015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+success----------------------------------------
+153431
+23831
+55703
+# Nodes: 232965
+# Edges: 114615892
+# Train: 153431
+# Val: 23831
+# Test: 55703
+# Classes: 41
+
+#nodes: 232965
+#edges: 114615892
+#classes: 41
+----------------------------------------start of run function 
+ Nvidia-smi: 0.3560791015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.018157958984375
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0008928775787353516
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.013390064239501953
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.019403457641601562
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.18001866340637207
+self.buckets_partition() spend  sec:  0.0328068733215332
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.01997232437133789
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0003705024719238281
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.006858348846435547
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.02060532569885254
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.1765146255493164
+self.buckets_partition() spend  sec:  0.027475833892822266
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.020010948181152344
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0004031658172607422
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.006767749786376953
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.020670175552368164
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.17833638191223145
+self.buckets_partition() spend  sec:  0.0274505615234375
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.018553495407104492
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0015447139739990234
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.007584571838378906
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.020378828048706055
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.16511201858520508
+self.buckets_partition() spend  sec:  0.027976512908935547
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.01840519905090332
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0009708404541015625
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.007481098175048828
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.019973039627075195
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.16309857368469238
+self.buckets_partition() spend  sec:  0.02746725082397461
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.018274307250976562
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0006525516510009766
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.00771331787109375
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.019247055053710938
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.16542530059814453
+self.buckets_partition() spend  sec:  0.026973962783813477
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.019019126892089844
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0007166862487792969
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.008397102355957031
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.020438194274902344
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.1737518310546875
+self.buckets_partition() spend  sec:  0.028847694396972656
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.019028663635253906
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0006952285766601562
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.0064623355865478516
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.020290374755859375
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.16476941108703613
+self.buckets_partition() spend  sec:  0.02677464485168457
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.018814802169799805
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0007574558258056641
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.008528709411621094
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.019998550415039062
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.16731929779052734
+self.buckets_partition() spend  sec:  0.02853870391845703
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.018110990524291992
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.000499725341796875
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.0064182281494140625
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.018919944763183594
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.168623685836792
+self.buckets_partition() spend  sec:  0.025349855422973633
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.2741672992706299
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0013761520385742188
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.01136469841003418
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.2759561538696289
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.43738341331481934
+self.buckets_partition() spend  sec:  0.28734278678894043
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.019059419631958008
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0008306503295898438
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.006361961364746094
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.020168542861938477
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.16277837753295898
+self.buckets_partition() spend  sec:  0.026541709899902344
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.01909184455871582
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0005705356597900391
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.006418704986572266
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.01995706558227539
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.16011524200439453
+self.buckets_partition() spend  sec:  0.02638554573059082
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.018401622772216797
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0006463527679443359
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.008103370666503906
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.019390106201171875
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.16833043098449707
+self.buckets_partition() spend  sec:  0.02750873565673828
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.017037153244018555
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0005483627319335938
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.006183624267578125
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.017882823944091797
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.15920400619506836
+self.buckets_partition() spend  sec:  0.024075984954833984
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.01821613311767578
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0005023479461669922
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.006905078887939453
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.018983840942382812
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.16694927215576172
+self.buckets_partition() spend  sec:  0.02590012550354004
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.018197298049926758
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0004658699035644531
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.0065653324127197266
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.01893472671508789
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.16115355491638184
+self.buckets_partition() spend  sec:  0.025510549545288086
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.018470287322998047
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0004994869232177734
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.006277322769165039
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.0192413330078125
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.16524100303649902
+self.buckets_partition() spend  sec:  0.02552962303161621
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.01846027374267578
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0004782676696777344
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.005991697311401367
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.01919698715209961
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.16045331954956055
+self.buckets_partition() spend  sec:  0.02519965171813965
+step  0
+step  1
+step  2
+step  3
+the output layer 
+self.num_batch (get_in_degree_bucketing) 4
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  4
+self.K  4
+G_BUCKET_ID_list [[7, 3], [6, 4], [8, 1, 0], [5, 2]]
+Groups_mem_list  [[258, 159], [230, 185], [252, 98, 56], [211, 127]]
+G_BUCKET_ID_list length 4
+backpack scheduling spend  0.018318891525268555
+4
+4
+current group_mem  0.4172358512878418
+current group_mem  0.41570189595222473
+current group_mem  0.40722477436065674
+current group_mem  0.3394481688737869
+batches output list generation spend  0.0004680156707763672
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.0056781768798828125
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.019076824188232422
+num_output  153431
+self.output_nids  153431
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.15999293327331543
+self.buckets_partition() spend  sec:  0.024769067764282227
+step  0
+step  1
+step  2
+step  3
+epoch_time_list  [4.23274564743042, 2.798537015914917, 2.7809348106384277, 2.7818093299865723, 3.314584255218506, 4.3263561725616455, 3.317559003829956, 3.283273935317993, 2.9377381801605225, 3.201075792312622, 4.004067897796631, 2.9743587970733643, 3.662179946899414, 2.845288038253784, 2.7312846183776855, 2.801253080368042, 2.9866507053375244, 2.741276979446411, 3.4509286880493164, 2.707671642303467]
+
+loading_time list   [0.06865501403808594, 0.06854510307312012, 0.04058408737182617, 0.04364466667175293, 0.038552045822143555, 0.10522627830505371, 0.0657804012298584, 0.040400028228759766, 0.04702353477478027, 0.04603457450866699, 0.031890869140625, 0.05693936347961426, 0.027830123901367188, 0.03352165222167969, 0.03969430923461914, 0.056789398193359375, 0.03435182571411133, 0.045006752014160156, 0.03563833236694336, 0.026364564895629883]
+
+ data loader gen time  0.89560866355896
+	---backpack schedule time  [0.20044493675231934, 0.19693636894226074, 0.19579458236694336, 0.18251824378967285, 0.17963075637817383, 0.18847107887268066, 0.19035077095031738, 0.18305063247680664, 0.18341970443725586, 0.18095898628234863, 0.47132444381713867, 0.17557382583618164, 0.17204022407531738, 0.1877756118774414, 0.17159271240234375, 0.18115878105163574, 0.1739497184753418, 0.17864084243774414, 0.17365336418151855, 0.17412042617797852]
+	---connection_check_time_list  [0.48891520500183105, 0.4828629493713379, 0.4730398654937744, 0.4851253032684326, 1.0414676666259766, 1.9532842636108398, 0.9902286529541016, 1.043475866317749, 0.6966938972473145, 0.9002368450164795, 1.449507713317871, 0.735745906829834, 1.428107738494873, 0.6098520755767822, 0.5236549377441406, 0.5699474811553955, 0.7644624710083008, 0.508803129196167, 1.2192847728729248, 0.5305862426757812]
+	---block_gen_time_list  [0.17352962493896484, 0.16816473007202148, 0.18070197105407715, 0.17549943923950195, 0.18438196182250977, 0.17412400245666504, 0.18220782279968262, 0.158827543258667, 0.1543288230895996, 0.1777641773223877, 0.1967630386352539, 0.17245268821716309, 0.1642003059387207, 0.1705474853515625, 0.1540203094482422, 0.15510869026184082, 0.16621685028076172, 0.15772414207458496, 0.14466166496276855, 0.15889620780944824]
+training time  [3.263399600982666, 1.8464255332946777, 1.8523716926574707, 1.8608765602111816, 1.836879014968872, 1.8698437213897705, 1.8553543090820312, 1.821197271347046, 1.8237941265106201, 1.86470627784729, 1.7975397109985352, 1.8015234470367432, 1.8384137153625488, 1.810058355331421, 1.8106803894042969, 1.8059494495391846, 1.8160758018493652, 1.8186469078063965, 1.8389086723327637, 1.7852840423583984]
+---feature block loading time  1.6879768371582031
+
+
+epoch_time avg   3.2053467333316803
+loading_time avg   0.045690253376960754
+ data loader gen time avg 1.3344244807958603
+	---backpack schedule time avg 0.19785699248313904
+	---connection_check_time avg  0.9353337287902832
+	---block_gen_time avg  0.16701410710811615
+training time  1.8246784508228302
+---feature block loading time  1.7245199531316757

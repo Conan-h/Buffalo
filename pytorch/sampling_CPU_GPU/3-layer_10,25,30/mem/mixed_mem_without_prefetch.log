@@ -1,0 +1,665 @@
+Training in mixed mode.
+Loading data
+Training...
+----------------------------------------before train dataloader 
+ Nvidia-smi: 1.462890625 GB
+    Memory Allocated: 0.002022266387939453  GigaBytes
+Max Memory Allocated: 0.002022266387939453  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 7.34765625 GB
+    Memory Allocated: 1.6442642211914062  GigaBytes
+Max Memory Allocated: 5.431286811828613  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 7.34765625 GB
+    Memory Allocated: 2.465301990509033  GigaBytes
+Max Memory Allocated: 5.431286811828613  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 12.625 GB
+    Memory Allocated: 8.254010677337646  GigaBytes
+Max Memory Allocated: 8.740125179290771  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 15.19921875 GB
+    Memory Allocated: 3.840911865234375  GigaBytes
+Max Memory Allocated: 9.56246566772461  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 15.19921875 GB
+    Memory Allocated: 3.8414392471313477  GigaBytes
+Max Memory Allocated: 9.56246566772461  GigaBytes
+
+
+Epoch 00000 | Loss 8.332435 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 15.19921875 GB
+    Memory Allocated: 3.8399739265441895  GigaBytes
+Max Memory Allocated: 9.56246566772461  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.19921875 GB
+    Memory Allocated: 4.05049991607666  GigaBytes
+Max Memory Allocated: 9.56246566772461  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.19921875 GB
+    Memory Allocated: 4.050604343414307  GigaBytes
+Max Memory Allocated: 9.56246566772461  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.805281162261963  GigaBytes
+Max Memory Allocated: 10.326025485992432  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8381829261779785  GigaBytes
+Max Memory Allocated: 10.326025485992432  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8381829261779785  GigaBytes
+Max Memory Allocated: 10.326025485992432  GigaBytes
+
+
+Epoch 00001 | Loss 7.392659 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8367176055908203  GigaBytes
+Max Memory Allocated: 10.326025485992432  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051399230957031  GigaBytes
+Max Memory Allocated: 10.326025485992432  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051445007324219  GigaBytes
+Max Memory Allocated: 10.326025485992432  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.807249069213867  GigaBytes
+Max Memory Allocated: 10.326483726501465  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.841346263885498  GigaBytes
+Max Memory Allocated: 10.326483726501465  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.841346263885498  GigaBytes
+Max Memory Allocated: 10.326483726501465  GigaBytes
+
+
+Epoch 00002 | Loss 6.566971 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.83988094329834  GigaBytes
+Max Memory Allocated: 10.326483726501465  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.053765296936035  GigaBytes
+Max Memory Allocated: 10.326483726501465  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.053592681884766  GigaBytes
+Max Memory Allocated: 10.326483726501465  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.809982776641846  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8408007621765137  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8408007621765137  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00003 | Loss 5.840465 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8393354415893555  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.0509796142578125  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051008701324463  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.803943157196045  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8400726318359375  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8400726318359375  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00004 | Loss 5.323751 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8386073112487793  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.0515851974487305  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051751136779785  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.8050217628479  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8396196365356445  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8396196365356445  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00005 | Loss 4.922917 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8381543159484863  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.052386283874512  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.052237510681152  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.80546522140503  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8408679962158203  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8408679962158203  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00006 | Loss 4.667718 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.839402675628662  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.053421974182129  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.053397178649902  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.805359363555908  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8411941528320312  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8411941528320312  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00007 | Loss 4.454090 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8389763832092285  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051414489746094  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051307201385498  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.804514408111572  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.839672088623047  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.839672088623047  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00008 | Loss 4.278979 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8382067680358887  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.050891876220703  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051204681396484  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.803964614868164  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.839409828186035  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.839409828186035  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00009 | Loss 4.095567 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.837944507598877  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.052989959716797  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.0533246994018555  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.804411888122559  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8422884941101074  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8422884941101074  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00010 | Loss 3.912283 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.840823173522949  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.050997257232666  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.050433158874512  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.803962707519531  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8393397331237793  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8393397331237793  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00011 | Loss 3.706010 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.837874412536621  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.0514235496521  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051544666290283  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.80406141281128  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8389644622802734  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8389644622802734  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00012 | Loss 3.553092 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8374991416931152  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051423072814941  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051275730133057  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.806921482086182  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8409581184387207  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8409581184387207  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00013 | Loss 3.397342 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8394927978515625  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.05212926864624  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.052199363708496  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.806453227996826  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.839904308319092  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.839904308319092  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00014 | Loss 3.266763 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8384389877319336  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.05181884765625  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051616191864014  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.804924488067627  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.839998722076416  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.839998722076416  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00015 | Loss 3.130306 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.838533401489258  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051141738891602  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051364421844482  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.805116653442383  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.840139389038086  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.840139389038086  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00016 | Loss 3.024935 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8386740684509277  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.0511956214904785  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051096439361572  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.803078174591064  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.838618755340576  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.838618755340576  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00017 | Loss 2.931371 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.837153434753418  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.0514140129089355  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.051554203033447  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.803160190582275  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.838850975036621  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.838850975036621  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00018 | Loss 2.861407 
+----------------------------------------before train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.837385654449463  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+use_uva  True
+----------------------------------------after train dataloader 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.049870014190674  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------before model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 4.049691200256348  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after model 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 9.801896572113037  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after backward 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8400306701660156  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+----------------------------------------after optimizer.step 
+ Nvidia-smi: 18.201171875 GB
+    Memory Allocated: 3.8400306701660156  GigaBytes
+Max Memory Allocated: 10.33141565322876  GigaBytes
+
+
+Epoch 00019 | Loss 2.792052 
+
+mean training time/epoch 0.7347951412200928

@@ -1,0 +1,474 @@
+main start at this time 1712955145.393411
+success----------------------------------------
+153431
+23831
+55703
+# Nodes: 232965
+# Edges: 114615892
+# Train: 153431
+# Val: 23831
+# Test: 55703
+# Classes: 41
+
+#nodes: 232965
+#edges: 114615892
+#classes: 41
+in feats:  602
+REG start----................................
+Convert a graph into a bidirected graph: 1.547 seconds, peak memory: 24.396 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 24.396 GB
+Metis partitioning: 7.153 seconds, peak memory: 25.052 GB
+Split the graph: 5.489 seconds
+Construct subgraphs: 0.009 seconds
+REG metis partition end ----................................
+REG construction  time spent:  21.66170620918274
+pure dgl.metis_partition the time spent:  14.222416162490845
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.263301372528076
+
+connection checking time:  0.7903187274932861
+block generation total time  2.263301372528076
+pure train time  1.8759243488311768
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 16.70458984375 GB
+    Memory Allocated: 0.2532987594604492  GigaBytes
+Max Memory Allocated: 15.251934051513672  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 5.164300918579102
+REG start----................................
+Convert a graph into a bidirected graph: 1.661 seconds, peak memory: 41.601 GB
+Construct multi-constraint weights: 0.001 seconds, peak memory: 41.601 GB
+Metis partitioning: 7.430 seconds, peak memory: 42.282 GB
+Split the graph: 5.991 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+REG construction  time spent:  22.528715133666992
+pure dgl.metis_partition the time spent:  15.11904001235962
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.2462897300720215
+
+connection checking time:  0.7964897155761719
+block generation total time  2.2462897300720215
+pure train time  0.44774293899536133
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 16.38818359375 GB
+    Memory Allocated: 0.2498946189880371  GigaBytes
+Max Memory Allocated: 15.32738971710205  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 4.4070305824279785
+REG start----................................
+Convert a graph into a bidirected graph: 1.599 seconds, peak memory: 45.691 GB
+Construct multi-constraint weights: 0.001 seconds, peak memory: 45.691 GB
+Metis partitioning: 7.450 seconds, peak memory: 45.691 GB
+Split the graph: 5.744 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+REG construction  time spent:  20.962916374206543
+pure dgl.metis_partition the time spent:  14.839493036270142
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.2916982173919678
+
+connection checking time:  0.8011429309844971
+block generation total time  2.2916982173919678
+pure train time  0.1581723690032959
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 18.11279296875 GB
+    Memory Allocated: 0.25650596618652344  GigaBytes
+Max Memory Allocated: 15.374912738800049  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 4.042752742767334
+loading full batch data spends  0.04137682914733887
+REG start----................................
+Convert a graph into a bidirected graph: 1.506 seconds, peak memory: 45.691 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.691 GB
+Metis partitioning: 7.755 seconds, peak memory: 45.691 GB
+Split the graph: 5.325 seconds
+Construct subgraphs: 0.010 seconds
+REG metis partition end ----................................
+REG construction  time spent:  22.61870837211609
+pure dgl.metis_partition the time spent:  14.631959676742554
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.324735403060913
+
+connection checking time:  0.8210527896881104
+block generation total time  2.324735403060913
+generate_dataloader_block spend   41.453097343444824
+pure train time  0.14493417739868164
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 18.11279296875 GB
+    Memory Allocated: 0.2511777877807617  GigaBytes
+Max Memory Allocated: 15.374912738800049  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 3.7379837036132812
+loading full batch data spends  0.04987335205078125
+REG start----................................
+Convert a graph into a bidirected graph: 1.567 seconds, peak memory: 45.691 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.691 GB
+Metis partitioning: 7.290 seconds, peak memory: 45.691 GB
+Split the graph: 5.650 seconds
+Construct subgraphs: 0.154 seconds
+REG metis partition end ----................................
+REG construction  time spent:  22.016873359680176
+pure dgl.metis_partition the time spent:  14.68732762336731
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.2832257747650146
+
+connection checking time:  0.8186342716217041
+block generation total time  2.2832257747650146
+generate_dataloader_block spend   40.75791263580322
+pure train time  0.14332818984985352
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 18.11279296875 GB
+    Memory Allocated: 0.2531905174255371  GigaBytes
+Max Memory Allocated: 15.374912738800049  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 3.46111798286438
+loading full batch data spends  0.05976128578186035
+REG start----................................
+Convert a graph into a bidirected graph: 1.522 seconds, peak memory: 45.691 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.691 GB
+Metis partitioning: 7.202 seconds, peak memory: 45.691 GB
+Split the graph: 5.702 seconds
+Construct subgraphs: 0.133 seconds
+REG metis partition end ----................................
+REG construction  time spent:  21.614584922790527
+pure dgl.metis_partition the time spent:  14.584602117538452
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.2764148712158203
+
+connection checking time:  0.7948858737945557
+block generation total time  2.2764148712158203
+generate_dataloader_block spend   40.22463059425354
+pure train time  0.14304423332214355
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 18.11279296875 GB
+    Memory Allocated: 0.2533683776855469  GigaBytes
+Max Memory Allocated: 15.374912738800049  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 3.257760524749756
+loading full batch data spends  0.04705500602722168
+REG start----................................
+Convert a graph into a bidirected graph: 1.605 seconds, peak memory: 45.691 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.691 GB
+Metis partitioning: 7.490 seconds, peak memory: 45.691 GB
+Split the graph: 6.044 seconds
+Construct subgraphs: 0.136 seconds
+REG metis partition end ----................................
+REG construction  time spent:  22.581714868545532
+pure dgl.metis_partition the time spent:  15.301910400390625
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.3150668144226074
+
+connection checking time:  0.8309369087219238
+block generation total time  2.3150668144226074
+generate_dataloader_block spend   42.00662088394165
+pure train time  0.13962817192077637
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 18.11279296875 GB
+    Memory Allocated: 0.25800132751464844  GigaBytes
+Max Memory Allocated: 15.374912738800049  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 3.0431432723999023
+loading full batch data spends  0.04645895957946777
+REG start----................................
+Convert a graph into a bidirected graph: 1.560 seconds, peak memory: 45.691 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.691 GB
+Metis partitioning: 6.910 seconds, peak memory: 45.691 GB
+Split the graph: 5.551 seconds
+Construct subgraphs: 0.149 seconds
+REG metis partition end ----................................
+REG construction  time spent:  22.56830072402954
+pure dgl.metis_partition the time spent:  14.194976568222046
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.2375383377075195
+
+connection checking time:  0.8043341636657715
+block generation total time  2.2375383377075195
+generate_dataloader_block spend   40.76155614852905
+pure train time  0.15135693550109863
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 18.11279296875 GB
+    Memory Allocated: 0.2570991516113281  GigaBytes
+Max Memory Allocated: 15.374912738800049  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 2.8349716663360596
+loading full batch data spends  0.04295539855957031
+REG start----................................
+Convert a graph into a bidirected graph: 1.608 seconds, peak memory: 45.691 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.691 GB
+Metis partitioning: 7.225 seconds, peak memory: 45.691 GB
+Split the graph: 5.605 seconds
+Construct subgraphs: 0.152 seconds
+REG metis partition end ----................................
+REG construction  time spent:  21.20400333404541
+pure dgl.metis_partition the time spent:  14.614971399307251
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.308035373687744
+
+connection checking time:  0.8125474452972412
+block generation total time  2.308035373687744
+generate_dataloader_block spend   39.90409803390503
+pure train time  0.15930676460266113
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 18.11279296875 GB
+    Memory Allocated: 0.24989938735961914  GigaBytes
+Max Memory Allocated: 15.374912738800049  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 2.6949448585510254
+loading full batch data spends  0.04858684539794922
+REG start----................................
+Convert a graph into a bidirected graph: 1.521 seconds, peak memory: 45.691 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.691 GB
+Metis partitioning: 7.147 seconds, peak memory: 45.691 GB
+Split the graph: 5.642 seconds
+Construct subgraphs: 0.147 seconds
+REG metis partition end ----................................
+REG construction  time spent:  21.75961470603943
+pure dgl.metis_partition the time spent:  14.481882333755493
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.2871570587158203
+
+connection checking time:  0.799475908279419
+block generation total time  2.2871570587158203
+generate_dataloader_block spend   40.27949523925781
+pure train time  0.14436936378479004
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 18.11279296875 GB
+    Memory Allocated: 0.2588515281677246  GigaBytes
+Max Memory Allocated: 15.374912738800049  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 2.559335231781006
+loading full batch data spends  0.04106950759887695
+REG start----................................
+Convert a graph into a bidirected graph: 1.599 seconds, peak memory: 45.691 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.691 GB
+Metis partitioning: 7.225 seconds, peak memory: 45.691 GB
+Split the graph: 5.646 seconds
+Construct subgraphs: 0.149 seconds
+REG metis partition end ----................................
+REG construction  time spent:  21.554837465286255
+pure dgl.metis_partition the time spent:  14.643666744232178
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.2841670513153076
+
+connection checking time:  0.8076355457305908
+block generation total time  2.2841670513153076
+generate_dataloader_block spend   40.2582323551178
+pure train time  0.14355754852294922
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 18.11279296875 GB
+    Memory Allocated: 0.25846338272094727  GigaBytes
+Max Memory Allocated: 15.374912738800049  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 2.3668341636657715
+loading full batch data spends  0.052162885665893555
+REG start----................................
+Convert a graph into a bidirected graph: 1.570 seconds, peak memory: 45.691 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.691 GB
+Metis partitioning: 6.891 seconds, peak memory: 45.691 GB
+Split the graph: 5.355 seconds
+Construct subgraphs: 0.136 seconds
+REG metis partition end ----................................
+REG construction  time spent:  23.029759883880615
+pure dgl.metis_partition the time spent:  13.977611541748047
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.2946019172668457
+
+connection checking time:  0.7991287708282471
+block generation total time  2.2946019172668457
+generate_dataloader_block spend   41.078567028045654
+pure train time  0.14313435554504395
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 18.11279296875 GB
+    Memory Allocated: 0.2539067268371582  GigaBytes
+Max Memory Allocated: 15.374912738800049  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 2.260796070098877
+loading full batch data spends  0.03898882865905762
+REG start----................................
+Convert a graph into a bidirected graph: 1.551 seconds, peak memory: 45.691 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.691 GB
+Metis partitioning: 7.098 seconds, peak memory: 45.691 GB
+Split the graph: 5.909 seconds
+Construct subgraphs: 0.145 seconds
+REG metis partition end ----................................
+REG construction  time spent:  21.27631163597107
+pure dgl.metis_partition the time spent:  14.734977722167969
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.0285415649414062
+
+connection checking time:  0.8017797470092773
+block generation total time  2.0285415649414062
+generate_dataloader_block spend   39.786486864089966
+pure train time  0.4013180732727051
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 16.96435546875 GB
+    Memory Allocated: 0.2508225440979004  GigaBytes
+Max Memory Allocated: 15.416919231414795  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 2.1857728958129883
+loading full batch data spends  0.0426790714263916
+REG start----................................
+Convert a graph into a bidirected graph: 1.549 seconds, peak memory: 45.997 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.997 GB
+Metis partitioning: 7.068 seconds, peak memory: 45.997 GB
+Split the graph: 5.336 seconds
+Construct subgraphs: 0.145 seconds
+REG metis partition end ----................................
+REG construction  time spent:  20.98671293258667
+pure dgl.metis_partition the time spent:  14.12294602394104
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.1420607566833496
+
+connection checking time:  0.8115494251251221
+block generation total time  2.1420607566833496
+generate_dataloader_block spend   39.00747752189636
+pure train time  0.14293909072875977
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 16.96435546875 GB
+    Memory Allocated: 0.2591533660888672  GigaBytes
+Max Memory Allocated: 15.416919231414795  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 2.086682081222534
+loading full batch data spends  0.027861833572387695
+REG start----................................
+Convert a graph into a bidirected graph: 1.561 seconds, peak memory: 45.997 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.997 GB
+Metis partitioning: 7.110 seconds, peak memory: 45.997 GB
+Split the graph: 5.211 seconds
+Construct subgraphs: 0.056 seconds
+REG metis partition end ----................................
+REG construction  time spent:  21.150015830993652
+pure dgl.metis_partition the time spent:  13.962414741516113
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.1879897117614746
+
+connection checking time:  0.7886762619018555
+block generation total time  2.1879897117614746
+generate_dataloader_block spend   39.01261281967163
+pure train time  0.1381528377532959
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 16.96435546875 GB
+    Memory Allocated: 0.2621183395385742  GigaBytes
+Max Memory Allocated: 15.416919231414795  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.9903671741485596
+loading full batch data spends  0.023284196853637695
+REG start----................................
+Convert a graph into a bidirected graph: 1.549 seconds, peak memory: 45.997 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.997 GB
+Metis partitioning: 7.107 seconds, peak memory: 45.997 GB
+Split the graph: 5.252 seconds
+Construct subgraphs: 0.149 seconds
+REG metis partition end ----................................
+REG construction  time spent:  22.145880460739136
+pure dgl.metis_partition the time spent:  14.081513166427612
+
+block_gen_time in "generate_blocks_for_one_layer_block"  1.717163324356079
+
+connection checking time:  0.8121974468231201
+block generation total time  1.717163324356079
+generate_dataloader_block spend   39.684184551239014
+pure train time  0.14005255699157715
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 17.80419921875 GB
+    Memory Allocated: 0.25644731521606445  GigaBytes
+Max Memory Allocated: 15.416919231414795  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.8519803285598755
+loading full batch data spends  0.051908016204833984
+REG start----................................
+Convert a graph into a bidirected graph: 1.521 seconds, peak memory: 45.997 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.997 GB
+Metis partitioning: 7.423 seconds, peak memory: 45.997 GB
+Split the graph: 5.530 seconds
+Construct subgraphs: 0.141 seconds
+REG metis partition end ----................................
+REG construction  time spent:  22.63681697845459
+pure dgl.metis_partition the time spent:  14.641034126281738
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.2197930812835693
+
+connection checking time:  0.7990660667419434
+block generation total time  2.2197930812835693
+generate_dataloader_block spend   41.18294024467468
+pure train time  0.18146514892578125
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 17.80419921875 GB
+    Memory Allocated: 0.25458765029907227  GigaBytes
+Max Memory Allocated: 15.416919231414795  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.731297254562378
+loading full batch data spends  0.0441584587097168
+REG start----................................
+Convert a graph into a bidirected graph: 1.548 seconds, peak memory: 45.997 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.997 GB
+Metis partitioning: 7.234 seconds, peak memory: 45.997 GB
+Split the graph: 5.403 seconds
+Construct subgraphs: 0.138 seconds
+REG metis partition end ----................................
+REG construction  time spent:  21.860010385513306
+pure dgl.metis_partition the time spent:  14.347415924072266
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.267618179321289
+
+connection checking time:  0.7964789867401123
+block generation total time  2.267618179321289
+generate_dataloader_block spend   40.25982880592346
+pure train time  0.17401719093322754
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 17.80419921875 GB
+    Memory Allocated: 0.2551240921020508  GigaBytes
+Max Memory Allocated: 15.416919231414795  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.6986438035964966
+loading full batch data spends  0.032471656799316406
+REG start----................................
+Convert a graph into a bidirected graph: 1.548 seconds, peak memory: 45.997 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.997 GB
+Metis partitioning: 7.105 seconds, peak memory: 45.997 GB
+Split the graph: 5.466 seconds
+Construct subgraphs: 0.150 seconds
+REG metis partition end ----................................
+REG construction  time spent:  21.71343755722046
+pure dgl.metis_partition the time spent:  14.293391227722168
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.216951608657837
+
+connection checking time:  0.7990720272064209
+block generation total time  2.216951608657837
+generate_dataloader_block spend   39.99441909790039
+pure train time  0.14620232582092285
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 17.80419921875 GB
+    Memory Allocated: 0.261812686920166  GigaBytes
+Max Memory Allocated: 15.416919231414795  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.6524425745010376
+loading full batch data spends  0.03959918022155762
+REG start----................................
+Convert a graph into a bidirected graph: 1.590 seconds, peak memory: 45.997 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 45.997 GB
+Metis partitioning: 7.131 seconds, peak memory: 45.997 GB
+Split the graph: 5.268 seconds
+Construct subgraphs: 0.153 seconds
+REG metis partition end ----................................
+REG construction  time spent:  21.14290761947632
+pure dgl.metis_partition the time spent:  14.166787385940552
+
+block_gen_time in "generate_blocks_for_one_layer_block"  2.2517714500427246
+
+connection checking time:  0.8240673542022705
+block generation total time  2.2517714500427246
+generate_dataloader_block spend   39.33856916427612
+pure train time  0.15565180778503418
+-----------------------------------------after optimizer zero grad
+ Nvidia-smi: 17.80419921875 GB
+    Memory Allocated: 0.2652931213378906  GigaBytes
+Max Memory Allocated: 15.416919231414795  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 1.6845821142196655
+Total (block generation + training)time/epoch 42.573593728682575
+pure train time/epoch 0.16547028720378876
+
+num_input_list  [337471, 333364, 342668, 346774, 337094, 346668, 334186, 329127, 342019, 339010, 327671, 325901, 335109, 337621, 338831, 328611, 319463, 325809, 325626, 344043]

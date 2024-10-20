@@ -1,0 +1,53 @@
+main start at this time 1714032302.5758727
+success----------------------------------------
+# Nodes: 111059956
+# Edges: 1615685872
+# Train: 1207179
+# Val: 125265
+# Test: 109727512
+# Classes: 172
+
+in feats:  128
+REG start----................................
+auxiliary_graph remove nodes with degree zero and non output nodes---
+auxiliary_graph_no_diag---
+Convert a graph into a bidirected graph: 6.220 seconds, peak memory: 179.545 GB
+Construct multi-constraint weights: 0.000 seconds, peak memory: 179.545 GB
+Metis partitioning: 33.578 seconds, peak memory: 182.450 GB
+Split the graph: 6.383 seconds
+Construct subgraphs: 0.591 seconds
+REG metis partition end ----................................
+REG construction  time spent:  90.68839621543884
+pure dgl.metis_partition the time spent:  46.82930016517639
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match
+local dst not match

@@ -1,0 +1,443 @@
+main start at this time 1708872466.9352403
+-----------------------------------------before load data 
+ Nvidia-smi: 0.355224609375 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+Loading data
+epoch  0
+
+Epoch 00000 | Loss 8.446692 
+epoch  1
+
+Epoch 00001 | Loss 7.443307 
+epoch  2
+
+Epoch 00002 | Loss 6.594576 
+epoch  3
+
+Epoch 00003 | Loss 5.876530 
+epoch  4
+
+Epoch 00004 | Loss 5.281569 
+epoch  5
+
+Epoch 00005 | Loss 4.862851 
+epoch  6
+
+Epoch 00006 | Loss 4.588057 
+epoch  7
+
+Epoch 00007 | Loss 4.340126 
+epoch  8
+
+Epoch 00008 | Loss 4.158449 
+epoch  9
+
+Epoch 00009 | Loss 3.944405 
+epoch  10
+train time  3.3965015411376953
+dataloader_time  2.4229843616485596
+feature and label time  0.6252191066741943
+model time  0.004916667938232422
+loss, backward, opt step  time  0.004734516143798828
+
+Epoch 00010 | Loss 3.763571 
+epoch  11
+train time  3.5838980674743652
+dataloader_time  2.6201601028442383
+feature and label time  0.6186697483062744
+model time  0.0047702789306640625
+loss, backward, opt step  time  0.0069806575775146484
+
+Epoch 00011 | Loss 3.607736 
+epoch  12
+train time  3.7177810668945312
+dataloader_time  2.673705577850342
+feature and label time  0.6900477409362793
+model time  0.004826784133911133
+loss, backward, opt step  time  0.00733184814453125
+
+Epoch 00012 | Loss 3.443425 
+epoch  13
+train time  3.610555648803711
+dataloader_time  2.625579833984375
+feature and label time  0.6209437847137451
+model time  0.006232261657714844
+loss, backward, opt step  time  0.008403778076171875
+
+Epoch 00013 | Loss 3.277466 
+epoch  14
+train time  3.7781100273132324
+dataloader_time  2.740063190460205
+feature and label time  0.6733808517456055
+model time  0.0054531097412109375
+loss, backward, opt step  time  0.00807332992553711
+
+Epoch 00014 | Loss 3.177423 
+epoch  15
+train time  3.663818597793579
+dataloader_time  2.421220064163208
+feature and label time  0.889305591583252
+model time  0.005070686340332031
+loss, backward, opt step  time  0.00742340087890625
+
+Epoch 00015 | Loss 3.059370 
+epoch  16
+train time  3.696512222290039
+dataloader_time  2.705429792404175
+feature and label time  0.6365017890930176
+model time  0.0053102970123291016
+loss, backward, opt step  time  0.007343292236328125
+
+Epoch 00016 | Loss 2.991073 
+epoch  17
+train time  3.688030242919922
+dataloader_time  2.689969062805176
+feature and label time  0.6385180950164795
+model time  0.007399559020996094
+loss, backward, opt step  time  0.007032632827758789
+
+Epoch 00017 | Loss 2.889780 
+epoch  18
+train time  2.9690959453582764
+dataloader_time  1.9663984775543213
+feature and label time  0.6496052742004395
+model time  0.00493311882019043
+loss, backward, opt step  time  0.007506847381591797
+
+Epoch 00018 | Loss 2.797268 
+epoch  19
+train time  3.5960147380828857
+dataloader_time  2.5673813819885254
+feature and label time  0.6810817718505859
+model time  0.00512242317199707
+loss, backward, opt step  time  0.0071239471435546875
+
+Epoch 00019 | Loss 2.718822 
+epoch  20
+train time  3.677475690841675
+dataloader_time  2.7011632919311523
+feature and label time  0.6228172779083252
+model time  0.005586385726928711
+loss, backward, opt step  time  0.007730722427368164
+
+Epoch 00020 | Loss 2.647614 
+epoch  21
+train time  3.1596522331237793
+dataloader_time  2.157850742340088
+feature and label time  0.6476767063140869
+model time  0.0060803890228271484
+loss, backward, opt step  time  0.00803375244140625
+
+Epoch 00021 | Loss 2.568560 
+epoch  22
+train time  3.4826996326446533
+dataloader_time  2.5227444171905518
+feature and label time  0.6159794330596924
+model time  0.004856109619140625
+loss, backward, opt step  time  0.004224300384521484
+
+Epoch 00022 | Loss 2.485908 
+epoch  23
+train time  3.5956149101257324
+dataloader_time  2.588615655899048
+feature and label time  0.6547319889068604
+model time  0.0048105716705322266
+loss, backward, opt step  time  0.0037860870361328125
+
+Epoch 00023 | Loss 2.413817 
+epoch  24
+train time  3.6693785190582275
+dataloader_time  2.6325125694274902
+feature and label time  0.6808671951293945
+model time  0.004849910736083984
+loss, backward, opt step  time  0.003838062286376953
+
+Epoch 00024 | Loss 2.368740 
+epoch  25
+train time  3.651353597640991
+dataloader_time  2.678406000137329
+feature and label time  0.6253390312194824
+model time  0.005055665969848633
+loss, backward, opt step  time  0.0038809776306152344
+
+Epoch 00025 | Loss 2.296893 
+epoch  26
+train time  3.3977417945861816
+dataloader_time  2.4216513633728027
+feature and label time  0.6268231868743896
+model time  0.004744529724121094
+loss, backward, opt step  time  0.003962516784667969
+
+Epoch 00026 | Loss 2.247088 
+epoch  27
+train time  3.6379501819610596
+dataloader_time  2.62813138961792
+feature and label time  0.6576497554779053
+model time  0.004751682281494141
+loss, backward, opt step  time  0.0048465728759765625
+
+Epoch 00027 | Loss 2.191387 
+epoch  28
+train time  3.6558239459991455
+dataloader_time  2.65238094329834
+feature and label time  0.6525344848632812
+model time  0.004712581634521484
+loss, backward, opt step  time  0.0071201324462890625
+
+Epoch 00028 | Loss 2.160113 
+epoch  29
+train time  3.399157762527466
+dataloader_time  2.4238414764404297
+feature and label time  0.6270840167999268
+model time  0.005624532699584961
+loss, backward, opt step  time  0.007754087448120117
+
+Epoch 00029 | Loss 2.100870 
+epoch  30
+train time  3.4997148513793945
+dataloader_time  2.522904872894287
+feature and label time  0.6250319480895996
+model time  0.004994392395019531
+loss, backward, opt step  time  0.007331132888793945
+
+Epoch 00030 | Loss 2.066912 
+epoch  31
+train time  3.2740442752838135
+dataloader_time  2.3024582862854004
+feature and label time  0.6251375675201416
+model time  0.004806995391845703
+loss, backward, opt step  time  0.004662513732910156
+
+Epoch 00031 | Loss 2.014817 
+epoch  32
+train time  3.6657843589782715
+dataloader_time  2.688250780105591
+feature and label time  0.6289627552032471
+model time  0.00494384765625
+loss, backward, opt step  time  0.0041005611419677734
+
+Epoch 00032 | Loss 1.981254 
+epoch  33
+train time  3.7796220779418945
+dataloader_time  2.5901410579681396
+feature and label time  0.83748459815979
+model time  0.0052187442779541016
+loss, backward, opt step  time  0.004774570465087891
+
+Epoch 00033 | Loss 1.951346 
+epoch  34
+train time  3.616117000579834
+dataloader_time  2.6161866188049316
+feature and label time  0.6524879932403564
+model time  0.004855155944824219
+loss, backward, opt step  time  0.0038080215454101562
+
+Epoch 00034 | Loss 1.906165 
+epoch  35
+train time  3.654796600341797
+dataloader_time  2.6731059551239014
+feature and label time  0.6255614757537842
+model time  0.004782915115356445
+loss, backward, opt step  time  0.0039501190185546875
+
+Epoch 00035 | Loss 1.878590 
+epoch  36
+train time  3.680379629135132
+dataloader_time  2.703433036804199
+feature and label time  0.6239631175994873
+model time  0.004763603210449219
+loss, backward, opt step  time  0.006819248199462891
+
+Epoch 00036 | Loss 1.854818 
+epoch  37
+train time  3.5943777561187744
+dataloader_time  2.592050552368164
+feature and label time  0.6481935977935791
+model time  0.0054819583892822266
+loss, backward, opt step  time  0.007134675979614258
+
+Epoch 00037 | Loss 1.806960 
+epoch  38
+train time  3.642902374267578
+dataloader_time  2.66634202003479
+feature and label time  0.6280908584594727
+model time  0.004823207855224609
+loss, backward, opt step  time  0.006809711456298828
+
+Epoch 00038 | Loss 1.790228 
+epoch  39
+train time  3.62747859954834
+dataloader_time  2.5932564735412598
+feature and label time  0.6853463649749756
+model time  0.004674673080444336
+loss, backward, opt step  time  0.00671839714050293
+
+Epoch 00039 | Loss 1.760585 
+epoch  40
+train time  3.5480687618255615
+dataloader_time  2.557821750640869
+feature and label time  0.639979362487793
+model time  0.006132841110229492
+loss, backward, opt step  time  0.007584571838378906
+
+Epoch 00040 | Loss 1.730481 
+epoch  41
+train time  3.6645774841308594
+dataloader_time  2.677395820617676
+feature and label time  0.6357512474060059
+model time  0.00519108772277832
+loss, backward, opt step  time  0.005307674407958984
+
+Epoch 00041 | Loss 1.700947 
+epoch  42
+train time  3.652261972427368
+dataloader_time  2.6726205348968506
+feature and label time  0.6320500373840332
+model time  0.005365610122680664
+loss, backward, opt step  time  0.0077550411224365234
+
+Epoch 00042 | Loss 1.677740 
+epoch  43
+train time  3.7750375270843506
+dataloader_time  2.746382713317871
+feature and label time  0.6739857196807861
+model time  0.005095005035400391
+loss, backward, opt step  time  0.0071828365325927734
+
+Epoch 00043 | Loss 1.655507 
+epoch  44
+train time  3.6409671306610107
+dataloader_time  2.6702306270599365
+feature and label time  0.6229665279388428
+model time  0.0047626495361328125
+loss, backward, opt step  time  0.006986141204833984
+
+Epoch 00044 | Loss 1.623227 
+epoch  45
+train time  3.6804182529449463
+dataloader_time  2.7025067806243896
+feature and label time  0.6302776336669922
+model time  0.005076408386230469
+loss, backward, opt step  time  0.0071620941162109375
+
+Epoch 00045 | Loss 1.598601 
+epoch  46
+train time  3.5605130195617676
+dataloader_time  2.5580434799194336
+feature and label time  0.6537384986877441
+model time  0.004906892776489258
+loss, backward, opt step  time  0.007025003433227539
+
+Epoch 00046 | Loss 1.581811 
+epoch  47
+train time  3.6231372356414795
+dataloader_time  2.6519575119018555
+feature and label time  0.6232352256774902
+model time  0.00506901741027832
+loss, backward, opt step  time  0.006923198699951172
+
+Epoch 00047 | Loss 1.564074 
+epoch  48
+train time  3.6591103076934814
+dataloader_time  2.6767027378082275
+feature and label time  0.6353399753570557
+model time  0.0047893524169921875
+loss, backward, opt step  time  0.0070798397064208984
+
+Epoch 00048 | Loss 1.535824 
+epoch  49
+train time  3.6182000637054443
+dataloader_time  2.6402554512023926
+feature and label time  0.6298644542694092
+model time  0.005086421966552734
+loss, backward, opt step  time  0.007170200347900391
+
+Epoch 00049 | Loss 1.512767 
+epoch  50
+train time  3.4145679473876953
+dataloader_time  2.4288251399993896
+feature and label time  0.6328568458557129
+model time  0.004907131195068359
+loss, backward, opt step  time  0.006029605865478516
+
+Epoch 00050 | Loss 1.499163 
+epoch  51
+train time  3.7147271633148193
+dataloader_time  2.6802480220794678
+feature and label time  0.683880090713501
+model time  0.00491642951965332
+loss, backward, opt step  time  0.006743669509887695
+
+Epoch 00051 | Loss 1.481679 
+epoch  52
+train time  3.312068223953247
+dataloader_time  2.3186378479003906
+feature and label time  0.6386566162109375
+model time  0.004816293716430664
+loss, backward, opt step  time  0.007393598556518555
+
+Epoch 00052 | Loss 1.460174 
+epoch  53
+train time  3.671335458755493
+dataloader_time  2.688081979751587
+feature and label time  0.6301209926605225
+model time  0.00489497184753418
+loss, backward, opt step  time  0.004617929458618164
+
+Epoch 00053 | Loss 1.442151 
+epoch  54
+train time  3.6534676551818848
+dataloader_time  2.672870635986328
+feature and label time  0.6298532485961914
+model time  0.005537271499633789
+loss, backward, opt step  time  0.0076181888580322266
+
+Epoch 00054 | Loss 1.422348 
+epoch  55
+train time  3.4934566020965576
+dataloader_time  2.5104129314422607
+feature and label time  0.6361956596374512
+model time  0.004903316497802734
+loss, backward, opt step  time  0.00557708740234375
+
+Epoch 00055 | Loss 1.402859 
+epoch  56
+train time  3.645056962966919
+dataloader_time  2.658564329147339
+feature and label time  0.6349608898162842
+model time  0.0047681331634521484
+loss, backward, opt step  time  0.006875753402709961
+
+Epoch 00056 | Loss 1.393964 
+epoch  57
+train time  3.528196096420288
+dataloader_time  2.5593209266662598
+feature and label time  0.6220331192016602
+model time  0.004781961441040039
+loss, backward, opt step  time  0.007170438766479492
+
+Epoch 00057 | Loss 1.372511 
+epoch  58
+train time  3.444671630859375
+dataloader_time  2.4600281715393066
+feature and label time  0.640143632888794
+model time  0.005827188491821289
+loss, backward, opt step  time  0.005181550979614258
+
+Epoch 00058 | Loss 1.358048 
+epoch  59
+train time  3.361133098602295
+dataloader_time  2.5890579223632812
+feature and label time  0.4194812774658203
+model time  0.005685329437255859
+loss, backward, opt step  time  0.008078813552856445
+
+Epoch 00059 | Loss 1.336582 
+
+mean training time/epoch 3.5744671297073363
+mean dataloader time/epoch 2.578165693283081
+mean feature label time/epoch 0.6452081632614136
+mean modeling time/epoch 0.0051393270492553714
+mean left time/epoch 0.006374073028564453

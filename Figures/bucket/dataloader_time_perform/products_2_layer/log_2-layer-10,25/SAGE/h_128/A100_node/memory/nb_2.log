@@ -1,0 +1,147 @@
+python3 bucky_time.py --num-batch 2
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+/home/shuangyan/.local/lib/python3.10/site-packages/pynvml/smi.py:5: FutureWarning: The pynvml.smi module is deprecated and will be removed in the next release of pynvml. Please use pynvml_utils:
+(e.g. `from pynvml_utils import nvidia_smi`)
+  warnings.warn(
+main start at this time 1728774324.9290154
+-----------------------------------------before load data 
+ Nvidia-smi: 0.85455322265625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.85455322265625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+load pickle file time  0.44373607635498047
+generate_dataloader_bucket_block=======
+the output layer 
+self.num_batch (get_in_degree_bucketing) 2
+get_in_degree_bucketing dst global nid length 196571
+len(bkt)  173
+len(bkt)  221
+len(bkt)  374
+len(bkt)  456
+len(bkt)  445
+len(bkt)  550
+len(bkt)  655
+len(bkt)  512
+len(bkt)  576
+len(bkt)  640
+len(bkt)  624
+len(bkt)  583
+len(bkt)  615
+len(bkt)  695
+len(bkt)  673
+len(bkt)  614
+len(bkt)  556
+len(bkt)  604
+len(bkt)  584
+len(bkt)  572
+len(bkt)  586
+len(bkt)  592
+len(bkt)  648
+len(bkt)  645
+len(bkt)  183378
+total indegree bucketing result ,  196571
+the number of total output nodes match :) 
+local nids of zero in-degree  []
+bucket partitioner: bkt_dst_nodes_list_local length  25
+---||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||-----||--
+self.num_batch,  2
+type of fanout_dst_nids  <class 'torch.Tensor'>
+sum(estimated_mem)
+27.023624836713726
+24
+G_BUCKET_ID_list [[21, 18, 19, 16, 17, 15, 13, 10, 11], [22, 23, 20, 14, 12, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]]
+G_BUCKET_ID_list length 2
+backpack scheduling spend  0.1421194076538086
+len(g_bucket_nids_list)  2
+len(local_split_batches_nid_list)  2
+current group_mem  13.773181314275107
+current group_mem  13.250443522438617
+batches output list generation spend  0.0005261898040771484
+self.weights_list  [0.4940352340884464, 0.5059647659115536]
+bkt_dst_nodes_list = self.get_in_degree_bucketing() spend:  0.011260271072387695
+self.gen_batches_seeds_list(bkt_dst_nodes_list_local) spend  0.1428697109222412
+self.has_zero_indegree_seeds  False
+num_output  196571
+self.output_nids  196571
+output nodes length match
+global output equals  True
+partition total batch output list spend :  0.4877283573150635
+self.buckets_partition() spend  sec:  0.154158353805542
+dataloader gen time  8.37947964668274
+step  0
+----------------------------------------before batch_pred = model(blocks, batch_inputs)
+ Nvidia-smi: 1.9803466796875 GB
+    Memory Allocated: 0.7035112380981445  GigaBytes
+Max Memory Allocated: 0.7035112380981445  GigaBytes
+
+----------------------------------------after batch_pred = model(blocks, batch_inputs)
+ Nvidia-smi: 73.9862060546875 GB
+    Memory Allocated: 70.2037124633789  GigaBytes
+Max Memory Allocated: 72.45973110198975  GigaBytes
+
+----------------------------------------after loss function
+ Nvidia-smi: 73.9862060546875 GB
+    Memory Allocated: 70.22071695327759  GigaBytes
+Max Memory Allocated: 72.45973110198975  GigaBytes
+
+step  1
+----------------------------------------before batch_pred = model(blocks, batch_inputs)
+ Nvidia-smi: 73.9940185546875 GB
+    Memory Allocated: 0.7955446243286133  GigaBytes
+Max Memory Allocated: 72.45973110198975  GigaBytes
+
+----------------------------------------after batch_pred = model(blocks, batch_inputs)
+ Nvidia-smi: 77.3944091796875 GB
+    Memory Allocated: 70.30886936187744  GigaBytes
+Max Memory Allocated: 72.5793342590332  GigaBytes
+
+----------------------------------------after loss function
+ Nvidia-smi: 77.3944091796875 GB
+    Memory Allocated: 70.32628393173218  GigaBytes
+Max Memory Allocated: 72.5793342590332  GigaBytes
+
+----------------------------------------after optimizer
+ Nvidia-smi: 77.3944091796875 GB
+    Memory Allocated: 0.908869743347168  GigaBytes
+Max Memory Allocated: 72.5793342590332  GigaBytes
+
+----------------------------------------------------------pseudo_mini_loss sum 5.206409454345703
+pure train time :  2.206312656402588
+train time :  2.8706862926483154
+end to end time :  11.250205755233765
+end to end time  11.694416761398315
+/home/shuangyan/.local/lib/python3.10/site-packages/numpy/core/fromnumeric.py:3504: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home/shuangyan/.local/lib/python3.10/site-packages/numpy/core/_methods.py:129: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Total (block generation + training)time/epoch nan
+Total (block generation + training)time/epoch all [11.694416761398315]
+pure train time per /epoch  [2.206312656402588]
+pure train time average  nan
+dataloader time  [8.37947964668274]
+dataloader time avg per epoch nan
+
+input num list  [3317552]
+      backpack schedule time  [0.5399551391601562]
+------backpack schedule time avg nan
+                connection_check_time_list  [6.1622960567474365]
+------connection_check time avg nan
+                block_gen_time_list  [1.0802021026611328]
+------block gen time avg nan

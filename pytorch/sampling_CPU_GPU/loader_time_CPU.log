@@ -1,0 +1,76 @@
+main start at this time 1704406658.0054085
+-----------------------------------------before load data 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+#nodes: 2449029
+#edges: 123718024
+#classes: 47
+success----------------------------------------
+196571
+39255
+2164782
+# Nodes: 2400608
+# Edges: 123718024
+# Train: 196571
+# Val: 39255
+# Test: 2164782
+# Classes: 47
+
+----------------------------------------start of run function 
+ Nvidia-smi: 0.166015625 GB
+    Memory Allocated: 0.0  GigaBytes
+Max Memory Allocated: 0.0  GigaBytes
+
+in feats:  100
+
+epoch  0
+----------------------------------------before  full batch dataloader
+ Nvidia-smi: 1.34375 GB
+    Memory Allocated: 0.00026226043701171875  GigaBytes
+Max Memory Allocated: 0.00026226043701171875  GigaBytes
+
+----------------------------------------after  full batch dataloader
+ Nvidia-smi: 1.34375 GB
+    Memory Allocated: 0.00026226043701171875  GigaBytes
+Max Memory Allocated: 0.00026226043701171875  GigaBytes
+
+----------------------------------------after  load_block_subtensor
+ Nvidia-smi: 2.18359375 GB
+    Memory Allocated: 0.8220396041870117  GigaBytes
+Max Memory Allocated: 0.8220396041870117  GigaBytes
+
+----------------------------------------after  block to device
+ Nvidia-smi: 2.666015625 GB
+    Memory Allocated: 1.2165708541870117  GigaBytes
+Max Memory Allocated: 1.2165708541870117  GigaBytes
+
+loader time/epoch 26.699146032333374
+data move to GPU time/epoch 0.9700400829315186
+epoch  1
+----------------------------------------before  full batch dataloader
+ Nvidia-smi: 2.666015625 GB
+    Memory Allocated: 1.2165708541870117  GigaBytes
+Max Memory Allocated: 1.2165708541870117  GigaBytes
+
+----------------------------------------after  full batch dataloader
+ Nvidia-smi: 2.666015625 GB
+    Memory Allocated: 0.8220396041870117  GigaBytes
+Max Memory Allocated: 1.2165708541870117  GigaBytes
+
+----------------------------------------after  load_block_subtensor
+ Nvidia-smi: 3.486328125 GB
+    Memory Allocated: 0.8220396041870117  GigaBytes
+Max Memory Allocated: 1.6438169479370117  GigaBytes
+
+----------------------------------------after  block to device
+ Nvidia-smi: 3.486328125 GB
+    Memory Allocated: 1.2165708541870117  GigaBytes
+Max Memory Allocated: 1.6438169479370117  GigaBytes
+
+loader time/epoch 4.597042560577393
+data move to GPU time/epoch 0.6162211894989014
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+loader time/epoch 15.648094296455383
+mean data move to GPU time/epoch 0.79313063621521
